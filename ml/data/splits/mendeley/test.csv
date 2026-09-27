@@ -1,0 +1,871 @@
+image_path,label
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot881.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot280.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1078.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding159.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1035.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping142.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1641.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot602.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1788.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping471.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding204.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding039.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping218.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2090.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1888.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot026.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot455.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1220.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot349.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1196.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot903.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot518.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding508.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot659.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding086.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding560.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot078.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping167.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot410.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot727.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding184.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1893.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot953.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding251.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1133.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot106.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding147.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1342.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot498.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot884.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1632.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot330.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping414.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot383.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot302.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot607.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1209.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding841.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding131.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1601.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1009.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1924.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1141.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping225.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot342.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping455.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding777.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot626.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot449.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1498.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot139.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1248.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding394.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot142.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot790.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1342.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1649.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot411.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1305.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2008.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1596.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1571.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding734.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1457.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot041.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping413.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2065.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1948.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot966.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping489.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot238.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding947.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot830.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping269.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot222.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot532.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1341.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot152.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding590.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1838.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding291.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot573.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding876.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot850.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2072.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1132.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot268.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1520.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding586.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping201.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot289.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot662.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping177.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot176.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1423.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot582.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding574.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot030.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping286.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding523.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2078.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping513.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot703.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding401.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot184.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding344.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1519.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1742.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot376.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot545.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding256.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot040.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding456.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot719.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding688.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1811.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot337.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping048.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2087.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot256.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1856.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping163.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot333.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1526.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1642.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot985.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot021.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1274.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1916.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot242.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1462.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot125.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot986.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping178.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot988.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding765.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot271.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping217.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding550.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding525.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding324.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot774.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot060.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot679.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1366.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot178.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot099.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot107.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1465.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping323.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping384.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot973.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping106.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot040.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2121.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot514.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding812.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1717.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot435.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1756.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding454.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1429.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1226.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1080.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot174.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1595.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping079.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1899.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1846.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot045.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding593.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding737.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot015.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping331.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot998.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1560.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot776.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1596.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot424.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot924.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot072.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot911.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot863.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1818.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot176.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot889.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping087.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding332.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding258.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot084.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding060.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1181.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot276.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping012.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1839.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot814.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot615.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot164.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot144.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot322.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1704.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding160.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot501.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot963.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1413.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding605.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot693.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot264.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1585.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1245.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding954.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping496.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot288.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot520.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping410.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1470.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot592.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1439.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping187.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1492.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot112.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1290.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2066.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1452.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot269.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot956.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1882.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping121.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot554.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot153.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping297.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding393.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2106.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1571.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1974.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot458.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot753.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1957.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot729.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1420.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot895.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding140.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot444.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot378.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot265.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1031.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1129.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot025.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1386.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot090.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot879.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1623.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot287.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1858.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot560.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1981.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot272.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1293.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot737.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot866.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot168.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding292.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot658.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1430.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot707.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding431.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding687.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot320.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding652.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping133.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot051.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1408.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding347.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot013.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot375.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot390.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1450.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1138.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot634.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1634.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding573.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot356.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1000.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1273.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1569.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1110.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot880.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding690.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot113.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding404.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot118.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding353.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1350.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot399.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot449.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot459.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot194.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding305.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1918.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1134.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1347.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1136.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot774.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding065.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot304.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1627.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1646.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping033.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1039.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot003.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1372.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2118.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot715.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping296.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1633.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1504.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping054.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot438.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding238.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping189.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot070.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1120.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping379.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot055.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1697.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1417.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot264.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot695.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1010.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1290.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding837.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot206.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot640.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot736.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1151.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot190.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding783.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1968.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot439.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot067.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1187.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot413.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot941.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot012.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot824.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1823.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot213.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot656.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1527.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot202.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot542.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1480.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1166.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1382.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping062.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot226.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot654.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1273.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1984.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot307.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot540.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2061.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1842.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot741.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot603.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1881.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding604.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping492.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding021.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1263.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot924.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot893.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1029.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding1006.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot154.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1746.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot168.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding080.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding153.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1471.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1434.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot302.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot419.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding553.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot047.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1041.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping137.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot162.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot748.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding263.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1523.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot752.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot657.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1531.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping141.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot139.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot018.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1259.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding625.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1313.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1638.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot818.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot921.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot829.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1262.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2025.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1901.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding822.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping160.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot336.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot193.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot652.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot383.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot716.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping001.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1617.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding225.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1050.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot398.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1449.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding728.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot781.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1208.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot262.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2126.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping039.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2017.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot313.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot632.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding930.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1966.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot643.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot241.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot964.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1015.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1654.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot122.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1052.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1509.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1212.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot757.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot467.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot868.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot591.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot049.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot905.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1314.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot176.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot065.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1073.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2007.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot386.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot251.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot543.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding440.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1430.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping399.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping276.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot930.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1440.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot639.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot350.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2111.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot967.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot898.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1171.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot368.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1272.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot395.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot461.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding912.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1550.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1111.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot509.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot685.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding294.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot868.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot263.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1068.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot720.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot397.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot844.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping007.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot420.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping166.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot484.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1002.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot038.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding925.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding198.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping058.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1417.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1439.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot052.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1172.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot891.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot696.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot422.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot267.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot481.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot020.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot658.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot552.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot340.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding214.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot570.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding217.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot982.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot196.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding243.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot061.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1343.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding210.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot668.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping183.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding833.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1470.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot933.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding017.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding727.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot103.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot334.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot752.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1041.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot799.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding656.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot851.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot722.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding130.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot138.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot926.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot854.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping085.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot476.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1910.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot078.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot217.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding053.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding334.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot512.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot448.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot846.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding655.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot887.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot923.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot048.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding342.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot160.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot060.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1906.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot708.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1415.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1056.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1245.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2107.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot025.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot782.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1092.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1669.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1706.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot743.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1159.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot105.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1519.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding534.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2011.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1197.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding372.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1398.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding370.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping115.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot797.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1070.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1063.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding591.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot088.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot179.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding259.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot692.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping182.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot222.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2079.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot944.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot992.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot227.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1004.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot510.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot156.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1190.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot428.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1047.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding624.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1582.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping098.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot636.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot537.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1249.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot428.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding488.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot311.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping190.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot914.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot629.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot087.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1416.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1989.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1173.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot216.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot690.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot318.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding365.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot570.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot093.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping352.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding121.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot650.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot442.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping335.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping363.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding350.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot538.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding142.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot029.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1317.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot080.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2129.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping475.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot848.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding556.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot661.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1510.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot035.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping122.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot969.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1521.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1226.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1009.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1081.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1186.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot013.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot166.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1358.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot977.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot445.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot070.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping387.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding827.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot064.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping091.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot109.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1086.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot217.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot301.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding810.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot517.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot149.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot287.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot537.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot637.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2062.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping031.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping159.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2056.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot852.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding308.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding168.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot920.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1919.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot910.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1622.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot845.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1315.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot688.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding804.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot786.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot374.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1805.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1795.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot504.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot756.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot235.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding123.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot023.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping165.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding998.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2045.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding704.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot030.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot754.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1500.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding307.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1657.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot457.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1152.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot432.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1132.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot267.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding697.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot648.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding845.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1573.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot472.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1614.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot822.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot945.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot843.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding899.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding397.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot303.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1330.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1124.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding588.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1495.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding938.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding360.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding864.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot860.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot620.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding967.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1299.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1652.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1200.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot247.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot699.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1949.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding248.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1527.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding819.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1643.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1033.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1421.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding866.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1235.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1113.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot036.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1555.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1354.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot129.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1783.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding010.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot664.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding530.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding626.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1549.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1114.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1239.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding278.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping346.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping318.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot291.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot533.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot201.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot450.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot224.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding931.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot075.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding851.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1450.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2128.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1233.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot771.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding091.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping440.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot008.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1604.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding026.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot713.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot778.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot417.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot433.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping327.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot318.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot247.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot909.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot760.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot483.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping271.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding882.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1255.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot081.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1768.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot568.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1602.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot295.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1368.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding348.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1660.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding271.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding047.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot519.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot311.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1577.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding949.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot198.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1678.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot643.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding381.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot563.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot086.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping350.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1249.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot162.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1105.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot314.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping435.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot071.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot546.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot150.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding543.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1817.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding813.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping243.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding145.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2131.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1575.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot348.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1792.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding643.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding794.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1228.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping064.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding189.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2100.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding826.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding776.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot545.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot376.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot707.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot265.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1451.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot245.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot274.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding1005.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping114.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1785.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding097.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping395.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1018.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1473.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding868.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot934.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding421.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding275.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1207.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2004.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot371.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding922.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding749.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot277.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1506.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot290.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1525.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot369.jpg,Bud Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot832.jpg,Gray Leaf Spot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding658.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping009.jpg,Bud Root Dropping
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding003.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding100.jpg,Stem Bleeding
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot328.jpg,Leaf Rot
+/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping107.jpg,Bud Root Dropping

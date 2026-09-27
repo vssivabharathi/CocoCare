@@ -1,0 +1,11 @@
+                   precision    recall  f1-score   support
+
+Bud Root Dropping     1.0000    1.0000    1.0000        77
+          Bud Rot     1.0000    0.9859    0.9929        71
+   Gray Leaf Spot     0.9844    0.9844    0.9844       320
+         Leaf Rot     0.9802    0.9841    0.9821       251
+    Stem Bleeding     1.0000    1.0000    1.0000       151
+
+         accuracy                         0.9885       870
+        macro avg     0.9929    0.9909    0.9919       870
+     weighted avg     0.9885    0.9885    0.9885       870
