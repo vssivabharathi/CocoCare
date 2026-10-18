@@ -1,0 +1,156 @@
+check,passed,details
+metadata_valid_json,True,JSON parsed
+weather_column_date,True,required weather/output input
+weather_column_rainfall_mm,True,required weather/output input
+weather_column_tmax_c,True,required weather/output input
+weather_column_tmin_c,True,required weather/output input
+weather_column_solar_radiation_mj_m2_day,True,required weather/output input
+weather_column_relative_humidity_pct,True,required weather/output input
+weather_column_wind_speed_m_s,True,required weather/output input
+weather_column_et0_mm_day,True,required weather/output input
+weather_column_etc_potential_mm_day_modelled,True,required weather/output input
+weather_only_column_date,True,required output column
+weather_only_column_scenario,True,required output column
+weather_only_column_rainfall_mm,True,required output column
+weather_only_column_et0_mm_day,True,required output column
+weather_only_column_etc_potential_mm_day_modelled,True,required output column
+weather_only_column_effective_rainfall_mm_modelled,True,required output column
+weather_only_column_runoff_mm_modelled,True,required output column
+weather_only_column_irrigation_litres_per_palm_simulated,True,required output column
+weather_only_column_irrigation_mm_simulated,True,required output column
+weather_only_column_actual_et_mm_day_modelled,True,required output column
+weather_only_column_drainage_mm_modelled,True,required output column
+weather_only_column_soil_water_storage_mm_modelled,True,required output column
+weather_only_column_depletion_fraction_modelled,True,required output column
+weather_only_column_soil_moisture_vwc_pct_simulated,True,required output column
+weather_only_column_water_stress_rule_derived,True,required output column
+weather_only_column_recommended_action_simulated,True,required output column
+weather_only_column_simulated_palm_age_months,True,required output column
+weather_only_column_soil_temperature_c,True,required output column
+weather_only_row_count_positive,True,rows=547
+tnau_guided_column_date,True,required output column
+tnau_guided_column_scenario,True,required output column
+tnau_guided_column_rainfall_mm,True,required output column
+tnau_guided_column_et0_mm_day,True,required output column
+tnau_guided_column_etc_potential_mm_day_modelled,True,required output column
+tnau_guided_column_effective_rainfall_mm_modelled,True,required output column
+tnau_guided_column_runoff_mm_modelled,True,required output column
+tnau_guided_column_irrigation_litres_per_palm_simulated,True,required output column
+tnau_guided_column_irrigation_mm_simulated,True,required output column
+tnau_guided_column_actual_et_mm_day_modelled,True,required output column
+tnau_guided_column_drainage_mm_modelled,True,required output column
+tnau_guided_column_soil_water_storage_mm_modelled,True,required output column
+tnau_guided_column_depletion_fraction_modelled,True,required output column
+tnau_guided_column_soil_moisture_vwc_pct_simulated,True,required output column
+tnau_guided_column_water_stress_rule_derived,True,required output column
+tnau_guided_column_recommended_action_simulated,True,required output column
+tnau_guided_column_simulated_palm_age_months,True,required output column
+tnau_guided_column_soil_temperature_c,True,required output column
+tnau_guided_row_count_positive,True,rows=547
+weather_only_valid_dates,True,invalid_dates=0
+weather_only_unique_dates,True,duplicate_dates=0
+weather_only_sorted_dates,True,dates ascending
+weather_only_scenario_label,True,labels=['weather_only']
+tnau_guided_valid_dates,True,invalid_dates=0
+tnau_guided_unique_dates,True,duplicate_dates=0
+tnau_guided_sorted_dates,True,dates ascending
+tnau_guided_scenario_label,True,labels=['tnau_guided_irrigation']
+weather_and_scenarios_same_dates,True,"weather=547, baseline=547, irrigation=547"
+weather_no_missing_rainfall_mm,True,missing/non-numeric=0
+weather_no_missing_tmax_c,True,missing/non-numeric=0
+weather_no_missing_tmin_c,True,missing/non-numeric=0
+weather_no_missing_solar_radiation_mj_m2_day,True,missing/non-numeric=0
+weather_no_missing_relative_humidity_pct,True,missing/non-numeric=0
+weather_no_missing_wind_speed_m_s,True,missing/non-numeric=0
+weather_no_missing_et0_mm_day,True,missing/non-numeric=0
+weather_no_missing_etc_potential_mm_day_modelled,True,missing/non-numeric=0
+weather_only_no_missing_rainfall_mm,True,missing/non-numeric=0
+weather_only_no_missing_et0_mm_day,True,missing/non-numeric=0
+weather_only_no_missing_etc_potential_mm_day_modelled,True,missing/non-numeric=0
+weather_only_no_missing_effective_rainfall_mm_modelled,True,missing/non-numeric=0
+weather_only_no_missing_runoff_mm_modelled,True,missing/non-numeric=0
+weather_only_no_missing_irrigation_litres_per_palm_simulated,True,missing/non-numeric=0
+weather_only_no_missing_irrigation_mm_simulated,True,missing/non-numeric=0
+weather_only_no_missing_actual_et_mm_day_modelled,True,missing/non-numeric=0
+weather_only_no_missing_drainage_mm_modelled,True,missing/non-numeric=0
+weather_only_no_missing_soil_water_storage_mm_modelled,True,missing/non-numeric=0
+weather_only_no_missing_depletion_fraction_modelled,True,missing/non-numeric=0
+weather_only_no_missing_soil_moisture_vwc_pct_simulated,True,missing/non-numeric=0
+weather_only_no_missing_simulated_palm_age_months,True,missing/non-numeric=0
+weather_only_no_duplicate_rows,True,duplicate_rows=0
+weather_only_source_missing_cells_zero,True,unexpected_missing_cells=0; soil_temperature_c is intentionally unmodelled and checked separately
+tnau_guided_no_missing_rainfall_mm,True,missing/non-numeric=0
+tnau_guided_no_missing_et0_mm_day,True,missing/non-numeric=0
+tnau_guided_no_missing_etc_potential_mm_day_modelled,True,missing/non-numeric=0
+tnau_guided_no_missing_effective_rainfall_mm_modelled,True,missing/non-numeric=0
+tnau_guided_no_missing_runoff_mm_modelled,True,missing/non-numeric=0
+tnau_guided_no_missing_irrigation_litres_per_palm_simulated,True,missing/non-numeric=0
+tnau_guided_no_missing_irrigation_mm_simulated,True,missing/non-numeric=0
+tnau_guided_no_missing_actual_et_mm_day_modelled,True,missing/non-numeric=0
+tnau_guided_no_missing_drainage_mm_modelled,True,missing/non-numeric=0
+tnau_guided_no_missing_soil_water_storage_mm_modelled,True,missing/non-numeric=0
+tnau_guided_no_missing_depletion_fraction_modelled,True,missing/non-numeric=0
+tnau_guided_no_missing_soil_moisture_vwc_pct_simulated,True,missing/non-numeric=0
+tnau_guided_no_missing_simulated_palm_age_months,True,missing/non-numeric=0
+tnau_guided_no_duplicate_rows,True,duplicate_rows=0
+tnau_guided_source_missing_cells_zero,True,unexpected_missing_cells=0; soil_temperature_c is intentionally unmodelled and checked separately
+weather_range_rainfall_mm,True,"observed min=0.0, max=39.61, expected lower=0, upper=500"
+weather_range_tmax_c,True,"observed min=23.21, max=40.32, expected lower=-5, upper=60"
+weather_range_tmin_c,True,"observed min=13.69, max=26.36, expected lower=-10, upper=50"
+weather_range_solar_radiation_mj_m2_day,True,"observed min=4.68, max=27.31, expected lower=0, upper=45"
+weather_range_relative_humidity_pct,True,"observed min=38.63, max=94.55, expected lower=0, upper=100"
+weather_range_wind_speed_m_s,True,"observed min=0.38, max=3.29, expected lower=0, upper=50"
+weather_range_et0_mm_day,True,"observed min=1.371151657077162, max=6.389157484803832, expected lower=0, upper=15"
+weather_range_etc_potential_mm_day_modelled,True,"observed min=0.9598061599540132, max=4.472410239362682, expected lower=0, upper=20"
+weather_only_range_rainfall_mm,True,"observed min=0.0, max=39.61, expected lower=0, upper=500"
+weather_only_range_tmax_c,True,"observed min=23.21, max=40.32, expected lower=-5, upper=60"
+weather_only_range_tmin_c,True,"observed min=13.69, max=26.36, expected lower=-10, upper=50"
+weather_only_range_solar_radiation_mj_m2_day,True,"observed min=4.68, max=27.31, expected lower=0, upper=45"
+weather_only_range_relative_humidity_pct,True,"observed min=38.63, max=94.55, expected lower=0, upper=100"
+weather_only_range_wind_speed_m_s,True,"observed min=0.38, max=3.29, expected lower=0, upper=50"
+weather_only_range_et0_mm_day,True,"observed min=1.371151657077162, max=6.389157484803832, expected lower=0, upper=15"
+weather_only_range_etc_potential_mm_day_modelled,True,"observed min=0.9598061599540132, max=4.472410239362682, expected lower=0, upper=20"
+weather_only_range_soil_water_storage_mm_modelled,True,"observed min=0.1359545598140027, max=58.5, expected lower=0, upper=None"
+weather_only_range_depletion_fraction_modelled,True,"observed min=0.0, max=0.99767599043053, expected lower=0, upper=1"
+weather_only_range_soil_moisture_vwc_pct_simulated,True,"observed min=10.030212124403112, max=23.0, expected lower=0, upper=100"
+weather_only_range_irrigation_litres_per_palm_simulated,True,"observed min=0.0, max=0.0, expected lower=0, upper=None"
+weather_only_range_irrigation_mm_simulated,True,"observed min=0.0, max=0.0, expected lower=0, upper=None"
+weather_only_range_actual_et_mm_day_modelled,True,"observed min=0.0180687876564217, max=3.695741785241432, expected lower=0, upper=20"
+weather_only_range_drainage_mm_modelled,True,"observed min=0.0, max=36.14084897346339, expected lower=0, upper=None"
+tnau_guided_range_rainfall_mm,True,"observed min=0.0, max=39.61, expected lower=0, upper=500"
+tnau_guided_range_tmax_c,True,"observed min=23.21, max=40.32, expected lower=-5, upper=60"
+tnau_guided_range_tmin_c,True,"observed min=13.69, max=26.36, expected lower=-10, upper=50"
+tnau_guided_range_solar_radiation_mj_m2_day,True,"observed min=4.68, max=27.31, expected lower=0, upper=45"
+tnau_guided_range_relative_humidity_pct,True,"observed min=38.63, max=94.55, expected lower=0, upper=100"
+tnau_guided_range_wind_speed_m_s,True,"observed min=0.38, max=3.29, expected lower=0, upper=50"
+tnau_guided_range_et0_mm_day,True,"observed min=1.371151657077162, max=6.389157484803832, expected lower=0, upper=15"
+tnau_guided_range_etc_potential_mm_day_modelled,True,"observed min=0.9598061599540132, max=4.472410239362682, expected lower=0, upper=20"
+tnau_guided_range_soil_water_storage_mm_modelled,True,"observed min=0.1359545598140027, max=58.5, expected lower=0, upper=None"
+tnau_guided_range_depletion_fraction_modelled,True,"observed min=0.0, max=0.99767599043053, expected lower=0, upper=1"
+tnau_guided_range_soil_moisture_vwc_pct_simulated,True,"observed min=10.030212124403112, max=23.0, expected lower=0, upper=100"
+tnau_guided_range_irrigation_litres_per_palm_simulated,True,"observed min=0.0, max=45.0, expected lower=0, upper=None"
+tnau_guided_range_irrigation_mm_simulated,True,"observed min=0.0, max=45.0, expected lower=0, upper=None"
+tnau_guided_range_actual_et_mm_day_modelled,True,"observed min=0.0180687876564217, max=4.447298831988287, expected lower=0, upper=20"
+tnau_guided_range_drainage_mm_modelled,True,"observed min=0.0, max=66.91521076226972, expected lower=0, upper=None"
+weather_only_etc_formula,True,max_abs_error=8.881784197001252e-16
+tnau_guided_etc_formula,True,max_abs_error=8.881784197001252e-16
+metadata_taw_positive,True,TAW=58.5
+weather_only_storage_within_bucket,True,"TAW=58.5, storage min=0.1359545598140027, max=58.5"
+weather_only_depletion_formula,True,max_abs_error=2.220446049250313e-16
+weather_only_vwc_formula,True,max_abs_error_percentage_points=7.105427357601002e-15
+weather_only_water_balance_closure,True,max_abs_daily_residual_mm=1.4210854715202004e-14
+tnau_guided_storage_within_bucket,True,"TAW=58.5, storage min=0.1359545598140027, max=58.5"
+tnau_guided_depletion_formula,True,max_abs_error=2.220446049250313e-16
+tnau_guided_vwc_formula,True,max_abs_error_percentage_points=7.105427357601002e-15
+tnau_guided_water_balance_closure,True,max_abs_daily_residual_mm=1.4210854715202004e-14
+tnau_scenario_matches_declared_schedule,True,irrigation event count=23; max_abs_error_L=0.0
+weather_only_irrigation_is_zero,True,total_L=0.0
+irrigation_litres_to_mm_conversion,True,max_abs_error_mm=0.0
+soil_temperature_not_fabricated,True,"Soil temperature is intentionally not estimated; weather_only=True, tnau_guided=True"
+combined_row_count,True,"expected=1094, actual=1094"
+combined_scenario_counts,True,"{'weather_only': 547, 'tnau_guided_irrigation': 547}"
+comparison_has_two_scenarios,True,rows=2
+summary_baseline_irrigation_zero,True,summary total
+summary_irrigation_scenario_nonnegative,True,summary total
+summary_irrigation_total_matches_daily,True,daily sum=1035.0
+daily_difference_storage_matches,True,rows=547

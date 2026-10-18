@@ -1,0 +1,3 @@
+scenario,palm_age_months_assessed,days,total_irrigation_litres_per_palm_simulated,total_irrigation_mm_simulated,mean_storage_mm_modelled,mean_vwc_pct_simulated,low_stress_days_rule_derived,moderate_stress_days_rule_derived,high_stress_days_rule_derived,total_drainage_mm_modelled,irrigation_events
+stage4_weather_only,60.0,547,0.0,0.0,33.494954973962216,17.44332332754716,257,54,236,1091.9073935035542,0
+stage4_model_triggered_irrigation,60.0,547,671.3752350945681,671.3752350945681,46.53025303405869,20.340056229790818,351,161,35,1183.7012925579684,35

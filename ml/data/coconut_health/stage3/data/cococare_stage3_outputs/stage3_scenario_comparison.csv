@@ -1,0 +1,4 @@
+scenario,days,total_irrigation_litres_per_palm_simulated,total_irrigation_mm_simulated,mean_storage_mm_modelled,mean_vwc_pct_simulated,low_stress_days_rule_derived,moderate_stress_days_rule_derived,high_stress_days_rule_derived,total_drainage_mm_modelled,irrigation_events
+weather_only,547,0.0,0.0,33.494954973962216,17.44332332754716,257,54,236,1091.9073935035542,0
+tnau_guided_irrigation,547,1035.0,1035.0,39.54823837448239,18.78849741655164,342,34,171,1980.6265092266208,23
+model_triggered_irrigation,547,671.4020493098211,671.4020493098211,46.39259580040626,20.309465733423615,346,166,35,1176.6201582810963,35

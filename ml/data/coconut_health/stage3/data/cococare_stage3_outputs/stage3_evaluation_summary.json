@@ -1,0 +1,11 @@
+{
+  "project": "CocoCare",
+  "stage": "Stage 3",
+  "output_directory": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage3/data/cococare_stage3_outputs",
+  "checks_total": 66,
+  "checks_passed": 66,
+  "checks_failed": 0,
+  "overall_data_pipeline_pass": true,
+  "issues": [],
+  "interpretation_warning": "Passing checks indicates file integrity and arithmetic consistency only. It does not validate parameters, irrigation strategy, simulated moisture or stress labels against field observations."
+}

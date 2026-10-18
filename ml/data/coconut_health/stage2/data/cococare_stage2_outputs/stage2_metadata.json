@@ -1,0 +1,78 @@
+{
+  "project": "CocoCare",
+  "stage": "Stage 2",
+  "variety": "East Coast Tall",
+  "location": "Pollachi, Tamil Nadu, India",
+  "coordinates": {
+    "latitude": 10.746,
+    "longitude": 77.0976,
+    "elevation_m_approx": 286.0
+  },
+  "age_convention": "START_DATE is treated as an already-planted 18-month-old palm; age advances by elapsed days / 30.4375. This is a simulation convention.",
+  "weather_period": {
+    "start": "2023-01-01",
+    "end": "2024-06-30"
+  },
+  "weather_source": "NASA POWER daily point API or explicitly supplied snapshot",
+  "weather_source_url": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+  "agronomic_sources": {
+    "TNAU irrigation": "https://www.agritech.tnau.ac.in/expert_system/coconut/coconut/coconut_irrigation_management.html",
+    "FAO-56 ET0": "https://www.fao.org/4/X0490E/x0490e0b.htm"
+  },
+  "scenarios": {
+    "weather_only": "Zero irrigation baseline.",
+    "tnau_guided_irrigation": "45 L/palm every four days only when age is 18 to <24 months and month is in configured dry-season months. This is a simplified scenario derived from a TNAU source summary, not a complete official schedule."
+  },
+  "irrigation_assumptions": {
+    "litres_per_palm_per_event": 45.0,
+    "interval_days": 4,
+    "dry_season_months": [
+      3,
+      4,
+      5
+    ],
+    "dry_season_months_status": "provisional project assumption; verify locally",
+    "effective_wetted_area_m2": 1.0,
+    "effective_wetted_area_status": "placeholder only; must be measured or supported before interpreting irrigation mm",
+    "source_scope": "TNAU summary refers to 45 L/seedling every four days during dry summer months in the first two years after planting; verify current official page.",
+    "age_24_to_36_months": "No TNAU irrigation schedule assumed by this script for age >=24 months."
+  },
+  "formulas": {
+    "ETc": "potential_ETc_mm_day = provisional_Kc * ET0_mm_day",
+    "TAW": "TAW_mm = (field_capacity_vwc - wilting_point_vwc) * root_zone_depth_m * 1000",
+    "effective_rainfall": "effective_rainfall = max(0, rainfall - runoff)",
+    "irrigation_conversion": "irrigation_mm = irrigation_litres_per_palm / assumed_effective_wetted_area_m2",
+    "water_balance": "pre_drainage = previous_storage + effective_rainfall + irrigation - actual_ET; drainage = max(0, pre_drainage - TAW); storage = clip(pre_drainage - drainage, 0, TAW)",
+    "actual_ET": "actual_ET = potential_ETc * simplified provisional Ks",
+    "soil_moisture": "linear mapping between modelled storage and assumed FC/WP; not sensor calibrated"
+  },
+  "provisional_parameters": {
+    "root_zone_depth_m": 0.45,
+    "field_capacity_vwc_m3_m3": 0.23,
+    "wilting_point_vwc_m3_m3": 0.1,
+    "initial_available_water_fraction": 0.7,
+    "runoff_fraction_of_rainfall": 0.05,
+    "kc_provisional": 0.7,
+    "depletion_trigger_fraction": 0.5,
+    "total_available_water_mm_calculated": 58.5,
+    "status": "Prototype assumptions requiring evidence, site soil data and/or field calibration."
+  },
+  "validation": {
+    "weather_completeness": "checked for configured date range, duplicates and missing required values",
+    "water_balance": "storage bounded and drainage closes bucket overflow arithmetically",
+    "scenario_comparison": "same daily weather used for both scenarios",
+    "agronomic_validation": "not performed",
+    "independent_field_validation": "not available"
+  },
+  "limitations": [
+    "NASA POWER is gridded weather data, not on-farm sensor measurements.",
+    "ET0 implementation approximates actual vapour pressure using daily mean relative humidity.",
+    "Kc, root depth, FC, WP, runoff, initial storage and stress threshold are provisional.",
+    "The age clock is a simulation convention, not a real planting record.",
+    "The dry-season month list is provisional and needs local verification.",
+    "The wetted area is a placeholder and materially affects irrigation depth.",
+    "Soil temperature is not modelled and is stored as missing with an explanatory status.",
+    "Stress labels and moisture values are model-derived, not ground truth.",
+    "The irrigation scenario is not a farm-specific recommendation."
+  ]
+}

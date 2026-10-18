@@ -1,0 +1,3 @@
+scenario,days,irrigation_litres_per_palm_total,mean_storage_mm,mean_vwc_pct_simulated,low_stress_days_rule_derived,moderate_stress_days_rule_derived,high_stress_days_rule_derived
+weather_only,547,0.0,33.494954973962216,17.44332332754716,257,54,236
+tnau_guided_irrigation,547,1035.0,39.579359784111205,18.795413285358045,343,33,171

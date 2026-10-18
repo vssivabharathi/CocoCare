@@ -1,0 +1,33 @@
+{
+  "project": "CocoCare",
+  "stage": "Stage 2",
+  "data_directory": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage2/data/cococare_stage2_outputs",
+  "checks_total": 155,
+  "checks_passed": 155,
+  "checks_failed": 0,
+  "overall_data_pipeline_pass": true,
+  "issues": [],
+  "interpretation_warning": "Passing checks indicates data integrity and arithmetic consistency only. It does not validate irrigation assumptions, simulated moisture, soil temperature, stress labels or agronomic recommendations against field observations.",
+  "scenario_summary": [
+    {
+      "scenario": "weather_only",
+      "days": 547,
+      "irrigation_litres_per_palm_total": 0.0,
+      "mean_storage_mm": 33.494954973962216,
+      "mean_vwc_pct_simulated": 17.44332332754716,
+      "low_stress_days_rule_derived": 257,
+      "moderate_stress_days_rule_derived": 54,
+      "high_stress_days_rule_derived": 236
+    },
+    {
+      "scenario": "tnau_guided_irrigation",
+      "days": 547,
+      "irrigation_litres_per_palm_total": 1035.0,
+      "mean_storage_mm": 39.579359784111205,
+      "mean_vwc_pct_simulated": 18.795413285358045,
+      "low_stress_days_rule_derived": 343,
+      "moderate_stress_days_rule_derived": 33,
+      "high_stress_days_rule_derived": 171
+    }
+  ]
+}

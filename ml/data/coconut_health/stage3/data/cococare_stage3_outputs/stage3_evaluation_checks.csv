@@ -1,0 +1,67 @@
+check,passed,detail
+metadata_days_positive,True,547
+TAW_positive,True,58.5
+all_three_scenarios_present,True,"summary=['model_triggered_irrigation', 'tnau_guided_irrigation', 'weather_only']; combined=['model_triggered_irrigation', 'tnau_guided_irrigation', 'weather_only']"
+combined_rows_match_expected,True,"rows=1641, expected=1641"
+summary_has_three_rows,True,3
+weather_only_file_exists,True,/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage3/data/cococare_stage3_outputs/stage3_weather_only.csv
+weather_only_required_columns_present,True,[]
+weather_only_row_count,True,rows=547 expected=547
+weather_only_dates_unique,True,duplicates=0
+weather_only_date_sorted,True,dates monotonic
+weather_only_no_unexpected_missing_values,True,missing cells excluding intentionally unmodelled soil temperature=0
+weather_only_soil_temperature_intentionally_unmodelled,True,NaNs=547/547; status_ok=True
+weather_only_numeric_outputs_finite,True,numeric outputs finite
+weather_only_storage_within_bucket,True,"min=0.1360, max=58.5000, TAW=58.5000"
+weather_only_depletion_range,True,"min=0.0000, max=0.9977"
+weather_only_irrigation_nonnegative,True,irrigation >= 0
+weather_only_irrigation_conversion,True,mm = litres / assumed wetted area
+weather_only_VWC_mapping,True,VWC matches linear storage mapping
+weather_only_water_balance_closes,True,max_abs_error=0.00000000 mm
+weather_only_stress_labels_match_rules,True,labels recomputed from depletion thresholds
+weather_only_zero_irrigation,True,baseline should have zero irrigation
+weather_only_summary_row_exists,True,rows=1
+weather_only_summary_days_match,True,summary=547; actual=547
+weather_only_summary_irrigation_matches,True,summary irrigation total matches daily file
+weather_only_summary_mean_storage_matches,True,summary mean storage matches daily file
+tnau_guided_irrigation_file_exists,True,/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage3/data/cococare_stage3_outputs/stage3_tnau_guided_irrigation.csv
+tnau_guided_irrigation_required_columns_present,True,[]
+tnau_guided_irrigation_row_count,True,rows=547 expected=547
+tnau_guided_irrigation_dates_unique,True,duplicates=0
+tnau_guided_irrigation_date_sorted,True,dates monotonic
+tnau_guided_irrigation_no_unexpected_missing_values,True,missing cells excluding intentionally unmodelled soil temperature=0
+tnau_guided_irrigation_soil_temperature_intentionally_unmodelled,True,NaNs=547/547; status_ok=True
+tnau_guided_irrigation_numeric_outputs_finite,True,numeric outputs finite
+tnau_guided_irrigation_storage_within_bucket,True,"min=0.1360, max=58.5000, TAW=58.5000"
+tnau_guided_irrigation_depletion_range,True,"min=0.0000, max=0.9977"
+tnau_guided_irrigation_irrigation_nonnegative,True,irrigation >= 0
+tnau_guided_irrigation_irrigation_conversion,True,mm = litres / assumed wetted area
+tnau_guided_irrigation_VWC_mapping,True,VWC matches linear storage mapping
+tnau_guided_irrigation_water_balance_closes,True,max_abs_error=0.00000000 mm
+tnau_guided_irrigation_stress_labels_match_rules,True,labels recomputed from depletion thresholds
+tnau_guided_irrigation_summary_row_exists,True,rows=1
+tnau_guided_irrigation_summary_days_match,True,summary=547; actual=547
+tnau_guided_irrigation_summary_irrigation_matches,True,summary irrigation total matches daily file
+tnau_guided_irrigation_summary_mean_storage_matches,True,summary mean storage matches daily file
+model_triggered_irrigation_file_exists,True,/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage3/data/cococare_stage3_outputs/stage3_model_triggered_irrigation.csv
+model_triggered_irrigation_required_columns_present,True,[]
+model_triggered_irrigation_row_count,True,rows=547 expected=547
+model_triggered_irrigation_dates_unique,True,duplicates=0
+model_triggered_irrigation_date_sorted,True,dates monotonic
+model_triggered_irrigation_no_unexpected_missing_values,True,missing cells excluding intentionally unmodelled soil temperature=0
+model_triggered_irrigation_soil_temperature_intentionally_unmodelled,True,NaNs=547/547; status_ok=True
+model_triggered_irrigation_numeric_outputs_finite,True,numeric outputs finite
+model_triggered_irrigation_storage_within_bucket,True,"min=25.2442, max=58.5000, TAW=58.5000"
+model_triggered_irrigation_depletion_range,True,"min=0.0000, max=0.5685"
+model_triggered_irrigation_irrigation_nonnegative,True,irrigation >= 0
+model_triggered_irrigation_irrigation_conversion,True,mm = litres / assumed wetted area
+model_triggered_irrigation_VWC_mapping,True,VWC matches linear storage mapping
+model_triggered_irrigation_water_balance_closes,True,max_abs_error=0.00000000 mm
+model_triggered_irrigation_stress_labels_match_rules,True,labels recomputed from depletion thresholds
+model_triggered_irrigation_event_count_reported,True,events=35; zero events can be valid if the configured depletion threshold is never reached
+model_triggered_irrigation_only_on_trigger,True,irrigation events occur at/above configured trigger
+model_triggered_irrigation_respects_target,True,irrigation depth does not exceed target storage scale
+model_triggered_irrigation_summary_row_exists,True,rows=1
+model_triggered_irrigation_summary_days_match,True,summary=547; actual=547
+model_triggered_irrigation_summary_irrigation_matches,True,summary irrigation total matches daily file
+model_triggered_irrigation_summary_mean_storage_matches,True,summary mean storage matches daily file

@@ -1,0 +1,10 @@
+{
+  "method": "one-at-a-time exploratory scenarios using the audited frozen weather snapshot",
+  "not_validation": true,
+  "parameter_evidence_status": "All ranges are deliberately labelled exploratory; they are not claimed as matched evidence for 18-month East Coast Tall coconut at Pollachi. Kc scenarios bracket the 0.70 prototype but are not a recommendation.",
+  "definitions": {
+    "storage_capacity": "storage >= TAW minus 1e-8 mm",
+    "near_complete_depletion": "depletion fraction >= 0.95"
+  },
+  "fixed_model_features": "zero irrigation weather-only scenario; full overflow drainage; simplified storage-based Ks"
+}

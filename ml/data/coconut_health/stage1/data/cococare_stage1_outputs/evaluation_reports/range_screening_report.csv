@@ -1,0 +1,17 @@
+column,lower_screen,upper_screen,below_lower_count,above_upper_count,out_of_range_count,minimum,maximum
+rainfall_mm,0,500.0,0,0,0,0.0,39.61
+tmax_c,-10,60.0,0,0,0,23.21,38.47
+tmin_c,-15,50.0,0,0,0,13.69,23.96
+solar_radiation_mj_m2_day,0,45.0,0,0,0,6.61,27.31
+relative_humidity_pct,0,100.0,0,0,0,40.37,93.93
+wind_speed_m_s,0,75.0,0,0,0,0.38,3.29
+et0_mm_day,0,20.0,0,0,0,1.5019089309755835,6.353284045697554
+etc_potential_mm_day_modelled,0,20.0,0,0,0,1.0513362516829083,4.447298831988287
+effective_rainfall_mm_modelled,0,500.0,0,0,0,0.0,37.6295
+runoff_mm_modelled,0,500.0,0,0,0,0.0,1.9805
+irrigation_mm_simulated,0,500.0,0,0,0,0.0,0.0
+actual_et_mm_day_modelled,0,20.0,0,0,0,0.0605421484205996,3.695741785241432
+drainage_mm_modelled,0,500.0,0,0,0,0.0,18.070424486731696
+soil_water_storage_mm_modelled,0,58.5,0,0,0,0.4733034838020883,58.5
+depletion_fraction_modelled,0,1.0,0,0,0,0.0,0.9919093421572291
+soil_moisture_vwc_pct_simulated,0,100.0,0,0,0,10.10517855195602,23.0

@@ -1,0 +1,30 @@
+{
+  "project": "CocoCare",
+  "stage": "Stage 3",
+  "location": "Pollachi, Tamil Nadu, India",
+  "variety": "East Coast Tall",
+  "input_weather_file": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage2/data/cococare_stage2_outputs/stage2_weather_input.csv",
+  "days": 547,
+  "parameters": {
+    "kc_provisional": 0.7,
+    "root_depth_m": 0.45,
+    "field_capacity_vwc": 0.23,
+    "wilting_point_vwc": 0.1,
+    "initial_available_fraction": 0.7,
+    "runoff_fraction": 0.05,
+    "depletion_trigger": 0.5,
+    "refill_target_fraction": 0.8,
+    "effective_wetted_area_m2_placeholder": 1.0,
+    "TAW_mm": 58.5,
+    "age_months_at_first_weather_date": 18.0
+  },
+  "model_trigger_rule": "At start of a day, if modelled depletion >= configured threshold, apply water toward target storage; irrigation L = irrigation depth mm * assumed wetted area m2. ET stress coefficient uses post-irrigation storage.",
+  "tnau_scenario_note": "Illustrative comparison rule: 45 L on dates whose elapsed-day index is divisible by 4, only in provisional March-May months and simulated age <24 months. This is not a complete TNAU algorithm.",
+  "soil_temperature": "not modelled; output intentionally NaN",
+  "interpretation_warning": "Simulated scenarios only. Passing arithmetic checks is not field/agronomic validation. Parameters and wetted area are provisional.",
+  "source_urls": {
+    "NASA_POWER": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+    "FAO56_ET0": "https://www.fao.org/4/X0490E/x0490e0b.htm",
+    "TNAU_irrigation": "https://www.agritech.tnau.ac.in/expert_system/coconut/coconut/coconut_irrigation_management.html"
+  }
+}

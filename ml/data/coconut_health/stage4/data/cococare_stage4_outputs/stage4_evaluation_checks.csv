@@ -1,0 +1,50 @@
+check,passed,detail
+stage4_weather_only_file_exists,True,/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage4/data/cococare_stage4_outputs/stage4_weather_only.csv
+stage4_weather_only_nonempty,True,rows=547
+stage4_weather_only_expected_age,True,expected 60-month assessment label
+stage4_weather_only_no_duplicate_dates,True,date uniqueness
+stage4_weather_only_valid_dates,True,dates parse successfully
+stage4_weather_only_no_missing_required,True,excludes intentionally unmodelled soil_temperature_c
+stage4_weather_only_nonnegative_rain,True,rainfall >= 0
+stage4_weather_only_nonnegative_irrigation,True,irrigation >= 0
+stage4_weather_only_storage_bounds,True,0 <= storage <= 58.5
+stage4_weather_only_depletion_bounds,True,"depletion in [0,1]"
+stage4_weather_only_vwc_bounds,True,VWC between assumed WP and FC percentages
+stage4_weather_only_irrigation_conversion,True,mm = litres / assumed wetted area
+stage4_weather_only_stress_labels_match_rules,True,labels follow configured thresholds
+stage4_weather_only_soil_temperature_intentionally_unmodelled,True,NaN intentional; status must be explicit
+stage4_weather_only_prototype_status_present,True,prototype warning present
+stage4_weather_only_drainage_nonnegative,True,drainage >= 0
+stage4_weather_only_age_parameter_warning,True,age-specific parameters not validated
+stage4_model_triggered_irrigation_file_exists,True,/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage4/data/cococare_stage4_outputs/stage4_model_triggered_irrigation.csv
+stage4_model_triggered_irrigation_nonempty,True,rows=547
+stage4_model_triggered_irrigation_expected_age,True,expected 60-month assessment label
+stage4_model_triggered_irrigation_no_duplicate_dates,True,date uniqueness
+stage4_model_triggered_irrigation_valid_dates,True,dates parse successfully
+stage4_model_triggered_irrigation_no_missing_required,True,excludes intentionally unmodelled soil_temperature_c
+stage4_model_triggered_irrigation_nonnegative_rain,True,rainfall >= 0
+stage4_model_triggered_irrigation_nonnegative_irrigation,True,irrigation >= 0
+stage4_model_triggered_irrigation_storage_bounds,True,0 <= storage <= 58.5
+stage4_model_triggered_irrigation_depletion_bounds,True,"depletion in [0,1]"
+stage4_model_triggered_irrigation_vwc_bounds,True,VWC between assumed WP and FC percentages
+stage4_model_triggered_irrigation_irrigation_conversion,True,mm = litres / assumed wetted area
+stage4_model_triggered_irrigation_stress_labels_match_rules,True,labels follow configured thresholds
+stage4_model_triggered_irrigation_soil_temperature_intentionally_unmodelled,True,NaN intentional; status must be explicit
+stage4_model_triggered_irrigation_prototype_status_present,True,prototype warning present
+stage4_model_triggered_irrigation_drainage_nonnegative,True,drainage >= 0
+stage4_model_triggered_irrigation_age_parameter_warning,True,age-specific parameters not validated
+scenario_row_counts_equal,True,547 vs 547
+scenario_dates_identical,True,same weather-date baseline
+weather_only_has_zero_irrigation,True,no-irrigation baseline
+triggered_events_positive,True,events=35
+trigger_rule_applied_only_at_threshold,True,events must meet depletion threshold
+combined_file_exists,True,combined scenario CSV
+comparison_file_exists,True,summary comparison CSV
+daily_comparison_file_exists,True,date-aligned comparison CSV
+plot_file_exists,True,comparison plot
+metadata_file_exists,True,metadata JSON
+metadata_age_is_60,True,60.0
+metadata_days_match,True,"metadata days=547, rows=547"
+metadata_has_validation_warning,True,Simulation only. Automated checks do not establish field/agronomic validity.
+summary_has_two_scenarios,True,rows=2
+summary_irrigation_totals_match,True,summary totals match daily files

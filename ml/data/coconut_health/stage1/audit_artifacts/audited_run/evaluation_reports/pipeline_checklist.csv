@@ -1,0 +1,13 @@
+check,passed
+expected_row_count,True
+no_duplicate_dates,True
+no_invalid_dates,True
+no_missing_source_cells,True
+weather_range_screening_clean,True
+effective_rainfall_consistent,True
+runoff_not_above_rainfall,True
+actual_ET_not_above_potential_ETc,True
+ETc_formula_consistent,True
+water_balance_arithmetic_consistent,True
+derived_variables_consistent,True
+stress_action_mapping_consistent,True

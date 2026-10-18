@@ -1,0 +1,258 @@
+{
+  "project": "CocoCare",
+  "stage": "Stage 4",
+  "output_directory": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage4/data/cococare_stage4_outputs",
+  "checks_total": 49,
+  "checks_passed": 49,
+  "checks_failed": 0,
+  "overall_data_pipeline_pass": true,
+  "interpretation_warning": "Passing checks establishes internal consistency only, not field/agronomic validation.",
+  "checks": [
+    {
+      "check": "stage4_weather_only_file_exists",
+      "passed": true,
+      "detail": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage4/data/cococare_stage4_outputs/stage4_weather_only.csv"
+    },
+    {
+      "check": "stage4_weather_only_nonempty",
+      "passed": true,
+      "detail": "rows=547"
+    },
+    {
+      "check": "stage4_weather_only_expected_age",
+      "passed": true,
+      "detail": "expected 60-month assessment label"
+    },
+    {
+      "check": "stage4_weather_only_no_duplicate_dates",
+      "passed": true,
+      "detail": "date uniqueness"
+    },
+    {
+      "check": "stage4_weather_only_valid_dates",
+      "passed": true,
+      "detail": "dates parse successfully"
+    },
+    {
+      "check": "stage4_weather_only_no_missing_required",
+      "passed": true,
+      "detail": "excludes intentionally unmodelled soil_temperature_c"
+    },
+    {
+      "check": "stage4_weather_only_nonnegative_rain",
+      "passed": true,
+      "detail": "rainfall >= 0"
+    },
+    {
+      "check": "stage4_weather_only_nonnegative_irrigation",
+      "passed": true,
+      "detail": "irrigation >= 0"
+    },
+    {
+      "check": "stage4_weather_only_storage_bounds",
+      "passed": true,
+      "detail": "0 <= storage <= 58.5"
+    },
+    {
+      "check": "stage4_weather_only_depletion_bounds",
+      "passed": true,
+      "detail": "depletion in [0,1]"
+    },
+    {
+      "check": "stage4_weather_only_vwc_bounds",
+      "passed": true,
+      "detail": "VWC between assumed WP and FC percentages"
+    },
+    {
+      "check": "stage4_weather_only_irrigation_conversion",
+      "passed": true,
+      "detail": "mm = litres / assumed wetted area"
+    },
+    {
+      "check": "stage4_weather_only_stress_labels_match_rules",
+      "passed": true,
+      "detail": "labels follow configured thresholds"
+    },
+    {
+      "check": "stage4_weather_only_soil_temperature_intentionally_unmodelled",
+      "passed": true,
+      "detail": "NaN intentional; status must be explicit"
+    },
+    {
+      "check": "stage4_weather_only_prototype_status_present",
+      "passed": true,
+      "detail": "prototype warning present"
+    },
+    {
+      "check": "stage4_weather_only_drainage_nonnegative",
+      "passed": true,
+      "detail": "drainage >= 0"
+    },
+    {
+      "check": "stage4_weather_only_age_parameter_warning",
+      "passed": true,
+      "detail": "age-specific parameters not validated"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_file_exists",
+      "passed": true,
+      "detail": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage4/data/cococare_stage4_outputs/stage4_model_triggered_irrigation.csv"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_nonempty",
+      "passed": true,
+      "detail": "rows=547"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_expected_age",
+      "passed": true,
+      "detail": "expected 60-month assessment label"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_no_duplicate_dates",
+      "passed": true,
+      "detail": "date uniqueness"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_valid_dates",
+      "passed": true,
+      "detail": "dates parse successfully"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_no_missing_required",
+      "passed": true,
+      "detail": "excludes intentionally unmodelled soil_temperature_c"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_nonnegative_rain",
+      "passed": true,
+      "detail": "rainfall >= 0"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_nonnegative_irrigation",
+      "passed": true,
+      "detail": "irrigation >= 0"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_storage_bounds",
+      "passed": true,
+      "detail": "0 <= storage <= 58.5"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_depletion_bounds",
+      "passed": true,
+      "detail": "depletion in [0,1]"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_vwc_bounds",
+      "passed": true,
+      "detail": "VWC between assumed WP and FC percentages"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_irrigation_conversion",
+      "passed": true,
+      "detail": "mm = litres / assumed wetted area"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_stress_labels_match_rules",
+      "passed": true,
+      "detail": "labels follow configured thresholds"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_soil_temperature_intentionally_unmodelled",
+      "passed": true,
+      "detail": "NaN intentional; status must be explicit"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_prototype_status_present",
+      "passed": true,
+      "detail": "prototype warning present"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_drainage_nonnegative",
+      "passed": true,
+      "detail": "drainage >= 0"
+    },
+    {
+      "check": "stage4_model_triggered_irrigation_age_parameter_warning",
+      "passed": true,
+      "detail": "age-specific parameters not validated"
+    },
+    {
+      "check": "scenario_row_counts_equal",
+      "passed": true,
+      "detail": "547 vs 547"
+    },
+    {
+      "check": "scenario_dates_identical",
+      "passed": true,
+      "detail": "same weather-date baseline"
+    },
+    {
+      "check": "weather_only_has_zero_irrigation",
+      "passed": true,
+      "detail": "no-irrigation baseline"
+    },
+    {
+      "check": "triggered_events_positive",
+      "passed": true,
+      "detail": "events=35"
+    },
+    {
+      "check": "trigger_rule_applied_only_at_threshold",
+      "passed": true,
+      "detail": "events must meet depletion threshold"
+    },
+    {
+      "check": "combined_file_exists",
+      "passed": true,
+      "detail": "combined scenario CSV"
+    },
+    {
+      "check": "comparison_file_exists",
+      "passed": true,
+      "detail": "summary comparison CSV"
+    },
+    {
+      "check": "daily_comparison_file_exists",
+      "passed": true,
+      "detail": "date-aligned comparison CSV"
+    },
+    {
+      "check": "plot_file_exists",
+      "passed": true,
+      "detail": "comparison plot"
+    },
+    {
+      "check": "metadata_file_exists",
+      "passed": true,
+      "detail": "metadata JSON"
+    },
+    {
+      "check": "metadata_age_is_60",
+      "passed": true,
+      "detail": "60.0"
+    },
+    {
+      "check": "metadata_days_match",
+      "passed": true,
+      "detail": "metadata days=547, rows=547"
+    },
+    {
+      "check": "metadata_has_validation_warning",
+      "passed": true,
+      "detail": "Simulation only. Automated checks do not establish field/agronomic validity."
+    },
+    {
+      "check": "summary_has_two_scenarios",
+      "passed": true,
+      "detail": "rows=2"
+    },
+    {
+      "check": "summary_irrigation_totals_match",
+      "passed": true,
+      "detail": "summary totals match daily files"
+    }
+  ],
+  "issues": []
+}
