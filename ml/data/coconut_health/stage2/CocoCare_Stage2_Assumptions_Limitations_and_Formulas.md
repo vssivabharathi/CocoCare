@@ -255,3 +255,13 @@ This means the pipeline is internally consistent under its coded assumptions. It
 ## Suggested wording for the project report
 
 > Stage 2 is a prototype daily root-zone water-balance simulation driven by NASA POWER weather estimates. Reference evapotranspiration is estimated using a FAO-56-style Penman–Monteith implementation, and potential crop evapotranspiration is calculated using a provisional crop coefficient. Two scenarios—no irrigation and a simplified TNAU-guided irrigation scenario—are compared using a bucket water balance. Soil properties, root depth, crop coefficient, runoff fraction, initial storage, wetted area, and stress thresholds are assumptions rather than field measurements. The 155 automated checks passed, confirming pipeline consistency and arithmetic checks; however, the simulated soil moisture, stress labels, and irrigation effects have not been validated against field observations and should not be interpreted as farm-specific recommendations.
+
+
+
+
+## Limitations added revisied on oct 25th 
+> The Stage 2 irrigation model uses provisional soil and irrigation parameters because site-specific soil measurements and field observations are not currently available. Field capacity, wilting point, root-zone depth, crop coefficient, runoff fraction, initial soil-water storage and effective wetted area are therefore based on assumptions for prototype development.
+
+> In particular, an effective wetted area of 1.0 m² is used to convert irrigation volume into an equivalent water depth. This value has not been measured under actual field conditions and may influence the simulated soil-water storage and drainage.
+
+> The model is currently used to compare hypothetical irrigation scenarios using NASA POWER weather estimates and a simplified root-zone water balance. Its simulated soil moisture, water-stress labels and irrigation effects have not been validated against field measurements. Future work will investigate parameter sensitivity and, where possible, incorporate measured soil properties, soil-moisture sensor readings and actual irrigation records to improve the model's reliability.

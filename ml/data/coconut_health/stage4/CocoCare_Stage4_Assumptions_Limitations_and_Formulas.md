@@ -496,3 +496,23 @@ general method and weather-source descriptions. The numerical parameter
 settings are the values implemented in this CocoCare prototype; they
 should not be attributed to these sources unless the source specifically
 supports that exact value and context.
+
+## Stage 4 – Limitations
+
+- **Weather Data:** NASA POWER provides gridded weather estimates, not direct farm-level measurements.
+- **ET₀ Calculation:** Uses an FAO-56-style approximation that has not been independently validated.
+- **Age-Specific Parameters:** The 60-month assessment does not automatically adjust crop or soil parameters for palm age.
+- **Soil Properties:** Field capacity (0.23), wilting point (0.10), and root depth (0.45 m) are assumed, not measured.
+- **Crop Coefficient:** A fixed Kc of 0.70 is used without calibration for five-month-year-old palms at the target site.
+- **Water Balance:** Uses a simplified single-bucket model and assumes a fixed 5% runoff fraction.
+- **Irrigation Thresholds:** The 50% depletion trigger and 80% refill target are provisional and not field-validated.
+- **Wetted Area:** Assumes an effective wetted area of 1 m² per palm to calculate irrigation volume.
+- **Rainfall Awareness:** Irrigation decisions do not consider upcoming rainfall forecasts.
+- **Soil Moisture:** VWC is simulated from modelled water storage, not measured by soil sensors.
+- **Soil Temperature:** Not modelled because measurements or a defensible estimation method are unavailable.
+- **Water Stress:** Stress coefficients, labels, and recommended actions are simplified and not validated against coconut physiology or field observations.
+- **Evaluation:** Automated checks assess data integrity and selected calculations, but do not establish agronomic accuracy. Water-balance closure and exact irrigation refill calculations need stronger validation.
+- **No Field Validation:** Irrigation quantities and simulated moisture have not been validated against real farm measurements.
+- **Generalization:** Results have not been validated across different farms, soil types, seasons, or palm ages.
+
+**Note:** Stage 4 is a provisional simulation for assessing a 60-month-old coconut palm. Its outputs should not be treated as field-validated irrigation recommendations.

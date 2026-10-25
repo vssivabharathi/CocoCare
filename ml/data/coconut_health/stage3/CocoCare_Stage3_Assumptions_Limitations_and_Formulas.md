@@ -435,3 +435,27 @@ methods/data-source descriptions. The numerical settings in this
 document are the project's implemented assumptions; they should not be
 attributed to those sources unless a source specifically supports that
 exact value and context.
+
+
+---
+## Limitation 
+
+## Stage 3 – Limitations
+
+- **Weather Data:** NASA POWER provides gridded weather estimates, not farm-level measurements.
+- **ET₀ Calculation:** Uses an approximate FAO-56-style method that has not been independently validated.
+- **Soil Parameters:** Root depth (0.45 m), field capacity (0.23), and wilting point (0.10) are assumed, not measured.
+- **Crop Coefficient:** A fixed Kc of 0.70 is used for all simulated conditions.
+- **Water Balance:** Uses a simplified single-bucket model with a fixed 5% runoff assumption.
+- **Irrigation Strategy:** The 45 L/palm every four days schedule is illustrative, not a complete TNAU recommendation.
+- **Model-Triggered Irrigation:** Uses provisional depletion (50%) and refill (80% TAW) thresholds without considering upcoming rainfall.
+- **Wetted Area:** Assumes 1 m² per palm to convert irrigation depth into litres; this requires field verification.
+- **Soil Moisture:** VWC is simulated using a linear storage mapping, not measured by sensors.
+- **Soil Temperature:** Not modelled due to the absence of measurements or a defensible estimation method.
+- **Water Stress:** Stress labels and recommended actions are rule-derived, not ground-truth observations.
+- **Evaluation:** Automated checks verify data integrity and arithmetic consistency, not agronomic accuracy.
+- **ML Limitations:** No real ground-truth irrigation or stress labels are currently available; models trained on simulated outputs may reproduce the simulation rules.
+- **Generalization:** Results have not been validated across different farms, soil types, seasons, or palm ages.
+- **Final Growth Stage:** The planned 60-month dataset requires separate generation rules and validation.
+
+**Note:** Stage 3 is a provisional simulation prototype using weather-driven inputs and model-derived outputs. Field validation is required before making real-world irrigation recommendations.
