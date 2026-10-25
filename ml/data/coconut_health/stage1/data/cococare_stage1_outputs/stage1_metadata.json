@@ -5,9 +5,9 @@
   "palm_age_months": 18,
   "location": "Pollachi, Tamil Nadu, India",
   "coordinates": {
-    "latitude": 10.746,
-    "longitude": 77.0976,
-    "elevation_m_approx": 286.0
+    "latitude": 10.7423,
+    "longitude": 77.1042,
+    "elevation_m_approx": 310.0
   },
   "weather_source": "NASA POWER daily point API",
   "weather_source_url": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
@@ -24,8 +24,15 @@
     "ETc": "ETc = Kc * ET0 (crop coefficient approach)",
     "TAW": "TAW_mm = (field_capacity_vwc - wilting_point_vwc) * root_zone_depth_m * 1000",
     "effective_rainfall": "effective_rainfall = max(0, rainfall - runoff)",
-    "water_balance": "storage_t = clip(storage_(t-1) + effective_rainfall + irrigation - actual_ET - drainage, 0, TAW)",
+    "water_balance": "pre_drainage = previous_storage + effective_rainfall + irrigation - actual_ET; drainage = max(0, pre_drainage - TAW); storage = clip(pre_drainage - drainage, 0, TAW)",
     "actual_ET": "actual_ET = potential_ETc * Ks; Ks is a simplified provisional storage-based stress factor"
+  },
+  "water_balance_implementation": {
+    "drainage_method": "full_excess_above_TAW",
+    "drainage_formula": "drainage_mm = max(0, pre_drainage_mm - TAW_MM)",
+    "storage_formula": "storage_mm = clip(pre_drainage_mm - drainage_mm, 0, TAW_MM)",
+    "partial_drainage_fraction_used": false,
+    "note": "The generator removes the entire amount above TAW as drainage. No 0.5 drainage fraction is used."
   },
   "provisional_parameters": {
     "root_zone_depth_m": 0.45,
@@ -33,7 +40,6 @@
     "wilting_point_vwc_m3_m3": 0.1,
     "initial_available_water_fraction": 0.7,
     "runoff_fraction_of_rainfall": 0.05,
-    "drainage_fraction_above_capacity": 0.5,
     "kc_provisional": 0.7,
     "depletion_trigger_fraction": 0.5,
     "total_available_water_mm_calculated": 58.5,
@@ -42,7 +48,7 @@
   "validation": {
     "weather_period": "one calendar year; prototype/debugging period",
     "weather_quality": "Required weather inputs checked for missing values and duplicate dates during generation.",
-    "water_balance_arithmetic": "Storage equation uses effective rainfall, which already excludes runoff; runoff is not subtracted a second time.",
+    "water_balance_arithmetic": "Storage equation uses effective rainfall, which already excludes runoff; runoff is not subtracted a second time. Drainage removes the complete amount above bucket capacity, so the reported fluxes close the bucket.",
     "agronomic_validation": "not_yet_performed",
     "independent_field_validation": "not_available"
   },

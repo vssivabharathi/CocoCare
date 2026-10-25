@@ -1,6 +1,7 @@
 """CocoCare Stage 1 hybrid dataset generator.
 NASA POWER weather + provisional modelled water-balance outputs.
 Model outputs are not field observations or independently validated stress labels.
+Full-excess drainage is used; a 0.5 partial-drainage fraction is not used.
 """
 from pathlib import Path
 import json, math, os
@@ -14,9 +15,9 @@ OUT_DIR = Path(os.environ.get(
     "COCOCARE_OUTPUT_DIR",
     str(SCRIPT_DIR / "data" / "cococare_stage1_outputs"),
 )).expanduser().resolve()
-OUT_DIR.mkdir(exist_ok=True)
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-LATITUDE, LONGITUDE, ELEVATION_M = 10.7460, 77.0976, 286.0
+LATITUDE, LONGITUDE, ELEVATION_M = 10.7423, 77.1042, 310.0 #Pollachi Uthavipalayam location   
 START_DATE, END_DATE = "2023-01-01", "2023-12-31"
 VARIETY, PALM_AGE_MONTHS = "East Coast Tall", 18
 LOCATION = "Pollachi, Tamil Nadu, India"
@@ -260,8 +261,15 @@ metadata = {
         "ETc": "ETc = Kc * ET0 (crop coefficient approach)",
         "TAW": "TAW_mm = (field_capacity_vwc - wilting_point_vwc) * root_zone_depth_m * 1000",
         "effective_rainfall": "effective_rainfall = max(0, rainfall - runoff)",
-        "water_balance": "storage_t = storage_(t-1) + effective_rainfall + irrigation - actual_ET - drainage; drainage = max(0, pre_drainage - TAW); storage is therefore bounded in [0, TAW] without unreported clipping loss",
+        "water_balance": "pre_drainage = previous_storage + effective_rainfall + irrigation - actual_ET; drainage = max(0, pre_drainage - TAW); storage = clip(pre_drainage - drainage, 0, TAW)",
         "actual_ET": "actual_ET = potential_ETc * Ks; Ks is a simplified provisional storage-based stress factor",
+    },
+    "water_balance_implementation": {
+        "drainage_method": "full_excess_above_TAW",
+        "drainage_formula": "drainage_mm = max(0, pre_drainage_mm - TAW_MM)",
+        "storage_formula": "storage_mm = clip(pre_drainage_mm - drainage_mm, 0, TAW_MM)",
+        "partial_drainage_fraction_used": False,
+        "note": "The generator removes the entire amount above TAW as drainage. No 0.5 drainage fraction is used."
     },
     "provisional_parameters": {
         **SOIL, "kc_provisional": KC_PROVISIONAL,
