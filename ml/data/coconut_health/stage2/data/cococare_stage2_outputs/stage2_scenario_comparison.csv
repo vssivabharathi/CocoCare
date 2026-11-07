@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2a9c5f18aa96a02376142bb12784c3d47b16c9099cc8e3877aec195bd7a12f8e
-size 479
+scenario,days,total_irrigation_litres_per_palm_simulated,total_irrigation_mm_simulated,mean_soil_water_storage_mm_modelled,mean_soil_moisture_vwc_pct_simulated,low_stress_days_rule_derived,moderate_stress_days_rule_derived,high_stress_days_rule_derived,total_drainage_mm_modelled
+weather_only,547,0.0,0.0,33.494954973962216,17.44332332754716,257,54,236,1091.9073935035542
+tnau_guided_irrigation,547,1035.0,1035.0,39.579359784111205,18.79541328535805,343,33,171,1984.882361993362

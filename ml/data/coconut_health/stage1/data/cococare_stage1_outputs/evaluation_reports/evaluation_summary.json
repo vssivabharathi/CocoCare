@@ -1,3 +1,295 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4f9fe62e712b538ab46de256de0843564b8f0469188c93b5b012e9847ccd0ad8
-size 8738
+{
+  "dataset_path": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage1/data/cococare_stage1_outputs/stage1_hybrid_dataset.csv",
+  "output_directory": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage1/data/cococare_stage1_outputs",
+  "dataset_shape": {
+    "rows": 365,
+    "source_columns": 30
+  },
+  "date_range": {
+    "start": "2023-01-01 00:00:00",
+    "end": "2023-12-31 00:00:00"
+  },
+  "integrity": {
+    "rows": 365,
+    "source_columns": 30,
+    "duplicate_rows": 0,
+    "duplicate_dates": 0,
+    "invalid_dates": 0,
+    "missing_source_cells": 0,
+    "expected_days": 365,
+    "unique_observed_dates": 365,
+    "missing_calendar_dates": 0,
+    "unexpected_dates": 0,
+    "date_min": "2023-01-01 00:00:00",
+    "date_max": "2023-12-31 00:00:00"
+  },
+  "location_checks": {
+    "metadata_file_found": true,
+    "metadata_location_matches": true,
+    "metadata_latitude_matches": true,
+    "metadata_longitude_matches": true,
+    "dataset_location_matches": true,
+    "dataset_latitude_matches": true,
+    "dataset_longitude_matches": true,
+    "metadata_variety_matches": true,
+    "metadata_palm_age_matches": true
+  },
+  "configured_parameters": {
+    "field_capacity_vwc_m3_m3": 0.23,
+    "wilting_point_vwc_m3_m3": 0.1,
+    "root_zone_depth_m": 0.45,
+    "kc_provisional": 0.7,
+    "runoff_fraction_of_rainfall": 0.05,
+    "initial_available_water_fraction": 0.7,
+    "depletion_trigger_fraction": 0.5,
+    "TAW_mm": 58.5,
+    "initial_storage_mm": 40.949999999999996
+  },
+  "range_screening": [
+    {
+      "column": "rainfall_mm",
+      "lower_screen": 0,
+      "upper_screen": 500,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 0.0,
+      "maximum": 39.61
+    },
+    {
+      "column": "tmax_c",
+      "lower_screen": -10,
+      "upper_screen": 60,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 23.21,
+      "maximum": 38.47
+    },
+    {
+      "column": "tmin_c",
+      "lower_screen": -15,
+      "upper_screen": 50,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 13.69,
+      "maximum": 23.96
+    },
+    {
+      "column": "solar_radiation_mj_m2_day",
+      "lower_screen": 0,
+      "upper_screen": 45,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 6.61,
+      "maximum": 27.31
+    },
+    {
+      "column": "relative_humidity_pct",
+      "lower_screen": 0,
+      "upper_screen": 100,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 40.37,
+      "maximum": 93.93
+    },
+    {
+      "column": "wind_speed_m_s",
+      "lower_screen": 0,
+      "upper_screen": 75,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 0.38,
+      "maximum": 3.29
+    },
+    {
+      "column": "et0_mm_day",
+      "lower_screen": 0,
+      "upper_screen": 20,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 1.5030473603621424,
+      "maximum": 6.3534373427158695
+    },
+    {
+      "column": "etc_potential_mm_day_modelled",
+      "lower_screen": 0,
+      "upper_screen": 20,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 1.0521331522534996,
+      "maximum": 4.4474061399011084
+    },
+    {
+      "column": "effective_rainfall_mm_modelled",
+      "lower_screen": 0,
+      "upper_screen": 500,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 0.0,
+      "maximum": 37.6295
+    },
+    {
+      "column": "runoff_mm_modelled",
+      "lower_screen": 0,
+      "upper_screen": 500,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 0.0,
+      "maximum": 1.9805
+    },
+    {
+      "column": "irrigation_mm_simulated",
+      "lower_screen": 0,
+      "upper_screen": 500,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 0.0,
+      "maximum": 0.0
+    },
+    {
+      "column": "actual_et_mm_day_modelled",
+      "lower_screen": 0,
+      "upper_screen": 20,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 0.0604789479323737,
+      "maximum": 3.697865256460173
+    },
+    {
+      "column": "drainage_mm_modelled",
+      "lower_screen": 0,
+      "upper_screen": 500,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 0.0,
+      "maximum": 36.13956155637317
+    },
+    {
+      "column": "soil_water_storage_mm_modelled",
+      "lower_screen": 0,
+      "upper_screen": 58.5,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 0.4726984276293574,
+      "maximum": 58.5
+    },
+    {
+      "column": "depletion_fraction_modelled",
+      "lower_screen": 0,
+      "upper_screen": 1,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 0.0,
+      "maximum": 0.9919196849977888
+    },
+    {
+      "column": "soil_moisture_vwc_pct_simulated",
+      "lower_screen": 0,
+      "upper_screen": 100,
+      "below_lower_count": 0,
+      "above_upper_count": 0,
+      "out_of_range_count": 0,
+      "minimum": 10.105044095028749,
+      "maximum": 23.0
+    }
+  ],
+  "temperature_inversions": 0,
+  "etc_consistency": {
+    "kc_provisional": 0.7,
+    "mean_absolute_error_mm_day": 9.976798687042502e-17,
+    "maximum_absolute_error_mm_day": 8.881784197001252e-16,
+    "days_error_above_tolerance": 0
+  },
+  "rainfall_runoff_consistency": {
+    "runoff_fraction_configured": 0.05,
+    "maximum_runoff_error_mm": 2.220446049250313e-16,
+    "runoff_errors_above_tolerance": 0,
+    "maximum_effective_rainfall_error_mm": 1.7763568394002505e-15,
+    "effective_rainfall_errors_above_tolerance": 0,
+    "runoff_exceeds_rainfall_days": 0
+  },
+  "water_balance": {
+    "TAW_mm": 58.5,
+    "initial_storage_mm": 40.949999999999996,
+    "days_checked": 365,
+    "maximum_drainage_error_mm": 1.4210854715202004e-14,
+    "drainage_errors_above_tolerance": 0,
+    "maximum_storage_error_mm": 1.4210854715202004e-14,
+    "storage_errors_above_tolerance": 0,
+    "interpretation": "Internal arithmetic consistency only; not field validation."
+  },
+  "derived_variables": {
+    "maximum_depletion_formula_error": 1.942890293094024e-16,
+    "maximum_vwc_formula_error_percentage_points": 7.105427357601002e-15,
+    "storage_below_zero_count": 0,
+    "storage_above_TAW_count": 0,
+    "stress_label_mismatches": 0,
+    "action_mapping_mismatches": 0,
+    "actual_ET_exceeds_potential_ETc_days": 0
+  },
+  "weather_crosscheck": {
+    "weather_file_found": true,
+    "weather_rows": 365,
+    "weather_rows_match_dataset": true,
+    "weather_duplicate_dates": 0,
+    "date_join_not_both_count": 0,
+    "rainfall_mm_max_abs_difference": 0.0,
+    "tmax_c_max_abs_difference": 0.0,
+    "tmin_c_max_abs_difference": 0.0,
+    "solar_radiation_mj_m2_day_max_abs_difference": 0.0,
+    "relative_humidity_pct_max_abs_difference": 0.0,
+    "wind_speed_m_s_max_abs_difference": 0.0
+  },
+  "stress_label_counts": {
+    "low": 197,
+    "high": 125,
+    "moderate": 43
+  },
+  "recommended_action_counts": {
+    "continue_monitoring": 197,
+    "consider_irrigation_if_field_conditions_confirm": 125,
+    "recheck_soil_and_weather": 43
+  },
+  "pipeline_checks": {
+    "expected_row_count": true,
+    "no_duplicate_dates": true,
+    "no_duplicate_rows": true,
+    "no_invalid_dates": true,
+    "no_missing_source_cells": true,
+    "calendar_dates_complete": true,
+    "weather_range_screening_clean": true,
+    "temperature_order_valid": true,
+    "location_metadata_matches_pollachi": true,
+    "ETc_formula_consistent": true,
+    "runoff_formula_consistent": true,
+    "effective_rainfall_consistent": true,
+    "water_balance_drainage_consistent": true,
+    "water_balance_storage_consistent": true,
+    "derived_variables_consistent": true,
+    "stress_labels_match_rule": true,
+    "stress_action_mapping_consistent": true,
+    "weather_snapshot_matches_dataset": true
+  },
+  "scientific_status": {
+    "weather": "NASA POWER gridded estimates, not on-farm measurements",
+    "ET0": "Independent reference comparison not performed by this script",
+    "crop_and_soil_parameters": "provisional",
+    "stress_labels": "rule-derived, not ground truth",
+    "agronomic_validation": "not performed",
+    "independent_field_validation": "not available"
+  }
+}

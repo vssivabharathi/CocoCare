@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:83eb1fec2394fe6bca5f0b38cd3176d07f6af09d3240844b19065ac646e0e854
-size 226
+,healthy,bud_root_dropping,bud_rot,gray_leaf_spot,leaf_rot,stem_bleeding
+healthy,18,0,0,0,0,0
+bud_root_dropping,0,77,0,0,0,0
+bud_rot,0,0,71,0,0,0
+gray_leaf_spot,0,0,0,315,1,0
+leaf_rot,0,0,1,1,249,0
+stem_bleeding,0,0,0,0,0,151

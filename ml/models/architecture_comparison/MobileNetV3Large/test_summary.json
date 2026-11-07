@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:94dc5f876bb6aa5872e24e57e5dd705bf12110fd2a723e19087a69b8f5773a8d
-size 235
+{
+  "architecture": "MobileNetV3Large",
+  "test_accuracy": 0.998868778280543,
+  "macro_precision": 0.9976851851851851,
+  "macro_recall": 0.99933598937583,
+  "macro_f1": 0.9985018308371602,
+  "healthy_recall": 1.0,
+  "healthy_f1": 1.0
+}

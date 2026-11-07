@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dbf14fcc8e5115845c898998e958bbcfbb14c830d7e98868e74bf87670071e47
-size 231
+{
+  "architecture": "ConvNeXtTiny",
+  "test_accuracy": 0.997737556561086,
+  "macro_precision": 0.9971594228297699,
+  "macro_recall": 0.99867197875166,
+  "macro_f1": 0.9979045356960049,
+  "healthy_recall": 1.0,
+  "healthy_f1": 1.0
+}

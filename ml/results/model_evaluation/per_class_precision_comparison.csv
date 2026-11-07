@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cfe39fa06f1b4cfc3b819b3c7a2d37887cd14c9362e2de703e003013f1e2fd40
-size 274
+class,MobileNetV3Small,MobileNetV3Large,ConvNeXtTiny
+healthy,1.0,1.0,1.0
+bud_root_dropping,1.0,1.0,1.0
+bud_rot,0.9861111111111112,0.9861111111111112,0.9861111111111112
+gray_leaf_spot,0.9968354430379747,1.0,0.9968454258675079
+leaf_rot,0.996,1.0,1.0
+stem_bleeding,1.0,1.0,1.0

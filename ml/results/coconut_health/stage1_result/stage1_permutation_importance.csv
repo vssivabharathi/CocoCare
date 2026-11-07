@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:05a47f0ecf3ca34c9766ba075920a6cf861ad7bcb77252d84011ee234b7c701e
-size 455
+feature,importance_mean_macro_f1_drop,importance_std
+rainfall_mm,0.0,0.0
+tmax_c,0.0,0.0
+tmin_c,0.0,0.0
+solar_radiation_mj_m2_day,0.0,0.0
+relative_humidity_pct,0.0,0.0
+wind_speed_m_s,0.0,0.0
+et0_mm_day,0.0,0.0
+etc_potential_mm_day_modelled,0.0,0.0
+day_sin,0.0,0.0
+day_cos,0.0,0.0
+rainfall_mm_rolling3_prior,0.0,0.0
+rainfall_mm_rolling7_prior,0.0,0.0
+etc_potential_mm_day_modelled_rolling3_prior,0.0,0.0
+etc_potential_mm_day_modelled_rolling7_prior,0.0,0.0

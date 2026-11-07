@@ -1,3 +1,38 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8babf83a47fe3cccb29c5c193b3ec5560e81df9fb6f21b0835dbb7044db12140
-size 778
+{
+  "class_counts": {
+    "healthy": 123,
+    "bud_root_dropping": 514,
+    "bud_rot": 470,
+    "gray_leaf_spot": 2103,
+    "leaf_rot": 1671,
+    "stem_bleeding": 1006
+  },
+  "split_counts": {
+    "train": {
+      "healthy": 86,
+      "bud_root_dropping": 360,
+      "bud_rot": 329,
+      "gray_leaf_spot": 1472,
+      "leaf_rot": 1169,
+      "stem_bleeding": 704
+    },
+    "validation": {
+      "healthy": 19,
+      "bud_root_dropping": 77,
+      "bud_rot": 70,
+      "gray_leaf_spot": 315,
+      "leaf_rot": 251,
+      "stem_bleeding": 151
+    },
+    "test": {
+      "healthy": 18,
+      "bud_root_dropping": 77,
+      "bud_rot": 71,
+      "gray_leaf_spot": 316,
+      "leaf_rot": 251,
+      "stem_bleeding": 151
+    }
+  },
+  "duplicates_removed": 34,
+  "invalid_images": 0
+}

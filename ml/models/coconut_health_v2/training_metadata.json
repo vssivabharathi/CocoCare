@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:58622b5284ccf538ef1d273ec49b2091130451adaa8649313b3df93ba3e9f8dd
-size 543
+{
+  "architecture": "MobileNetV3Small",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "classes": [
+    "healthy",
+    "bud_root_dropping",
+    "bud_rot",
+    "gray_leaf_spot",
+    "leaf_rot",
+    "stem_bleeding"
+  ],
+  "seed": 42,
+  "batch_size": 32,
+  "test_accuracy": 0.9954751133918762,
+  "test_loss": 0.030162902548909187,
+  "train_images": 4120,
+  "validation_images": 883,
+  "test_images": 884,
+  "sources": [
+    "kaggle",
+    "mendeley"
+  ],
+  "note": "Healthy class requires manual label verification; exact duplicates removed."
+}

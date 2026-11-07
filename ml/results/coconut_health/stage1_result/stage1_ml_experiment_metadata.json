@@ -1,3 +1,112 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:abca6be1b5ff370fe9f43798c7ea83b31e00aae9e592feeaaa17ee9621077e85
-size 3582
+{
+  "dataset_path": "../data/coconut_health/stage1/data/cococare_stage1_outputs/stage1_hybrid_dataset.csv",
+  "output_dir": "../results/coconut_health/stage1_result",
+  "source_rows": 365,
+  "model_rows_after_lag_features": 358,
+  "train_rows": 286,
+  "test_rows": 72,
+  "train_date_start": "2023-01-08",
+  "train_date_end": "2023-10-20",
+  "test_date_start": "2023-10-21",
+  "test_date_end": "2023-12-31",
+  "features": [
+    "rainfall_mm",
+    "tmax_c",
+    "tmin_c",
+    "solar_radiation_mj_m2_day",
+    "relative_humidity_pct",
+    "wind_speed_m_s",
+    "et0_mm_day",
+    "etc_potential_mm_day_modelled",
+    "day_sin",
+    "day_cos",
+    "rainfall_mm_rolling3_prior",
+    "rainfall_mm_rolling7_prior",
+    "etc_potential_mm_day_modelled_rolling3_prior",
+    "etc_potential_mm_day_modelled_rolling7_prior"
+  ],
+  "target": "water_stress_rule_derived",
+  "label_status": "rule_derived_not_ground_truth",
+  "best_by_macro_f1": "Majority baseline",
+  "metrics": [
+    {
+      "model": "Majority baseline",
+      "accuracy": 0.9861111111111112,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.4965034965034965,
+      "macro_precision": 0.4930555555555556,
+      "macro_recall": 0.5
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9861111111111112,
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "macro_precision": 0.3333333333333333,
+      "macro_recall": 0.3333333333333333
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9166666666666666,
+      "balanced_accuracy": 0.4647887323943662,
+      "macro_f1": 0.32116788321167883,
+      "macro_precision": 0.3333333333333333,
+      "macro_recall": 0.30985915492957744
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.9027777777777778,
+      "balanced_accuracy": 0.45774647887323944,
+      "macro_f1": 0.3186274509803922,
+      "macro_precision": 0.3333333333333333,
+      "macro_recall": 0.3051643192488263
+    },
+    {
+      "model": "Extra Trees",
+      "accuracy": 0.8888888888888888,
+      "balanced_accuracy": 0.4507042253521127,
+      "macro_f1": 0.3160493827160494,
+      "macro_precision": 0.3333333333333333,
+      "macro_recall": 0.3004694835680751
+    },
+    {
+      "model": "Gaussian Naive Bayes",
+      "accuracy": 0.8888888888888888,
+      "balanced_accuracy": 0.4507042253521127,
+      "macro_f1": 0.3160493827160494,
+      "macro_precision": 0.3333333333333333,
+      "macro_recall": 0.3004694835680751
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 0.8611111111111112,
+      "balanced_accuracy": 0.43661971830985913,
+      "macro_f1": 0.3107769423558897,
+      "macro_precision": 0.3333333333333333,
+      "macro_recall": 0.29107981220657275
+    },
+    {
+      "model": "Support Vector Machine (RBF)",
+      "accuracy": 0.6527777777777778,
+      "balanced_accuracy": 0.33098591549295775,
+      "macro_f1": 0.2655367231638418,
+      "macro_precision": 0.3333333333333333,
+      "macro_recall": 0.22065727699530516
+    },
+    {
+      "model": "K-Nearest Neighbors",
+      "accuracy": 0.5555555555555556,
+      "balanced_accuracy": 0.28169014084507044,
+      "macro_f1": 0.24024024024024024,
+      "macro_precision": 0.3333333333333333,
+      "macro_recall": 0.18779342723004697
+    }
+  ],
+  "limitations": [
+    "Target labels are rule-derived, not measured ground truth.",
+    "Only one year of weather data is available.",
+    "A single chronological split may be sensitive to seasonal effects.",
+    "Feature importance is not causal evidence.",
+    "Model results do not establish agronomic accuracy."
+  ]
+}

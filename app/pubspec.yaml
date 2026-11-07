@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:14506de4e697e128d1e0a11939922b03eef90dd29037a632afa37830a4544380
-size 478
+name: app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  tflite_flutter: ^0.12.1
+  image_picker: ^1.2.3
+  image: ^4.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/coconut_disease_model.tflite
+    - assets/models/coconut_health_pest_model.tflite

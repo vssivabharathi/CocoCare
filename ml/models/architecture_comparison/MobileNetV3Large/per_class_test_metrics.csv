@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:02414cfc978add604fef987b0b69b8fd903917e3f1753417a2275e8b781f7e4d
-size 257
+class,precision,recall,f1,support
+healthy,1.0,1.0,1.0,18
+bud_root_dropping,1.0,1.0,1.0,77
+bud_rot,0.9861111111111112,1.0,0.993006993006993,71
+gray_leaf_spot,1.0,1.0,1.0,316
+leaf_rot,1.0,0.9960159362549801,0.998003992015968,251
+stem_bleeding,1.0,1.0,1.0,151

@@ -1,3 +1,885 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b4ba70191fb143b9b7a152a2e41367bc7656303dbbfcc3b60b6faf214e8e2c50
-size 151729
+path,class_name,true_label,predicted_label,confidence,correct,top2_margin
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot800.jpg,leaf_rot,leaf_rot,leaf_rot,0.99998015,True,0.9999628
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding445.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999986,True,0.9999973
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot046.jpg,bud_rot,bud_rot,bud_rot,0.9999986,True,0.9999974
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1079.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99958223,True,0.9991674
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot457.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999374,True,0.99998826
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot075.jpg,bud_rot,bud_rot,bud_rot,0.9999998,True,0.9999997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot739.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999565,True,0.9999927
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1427.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999936,True,0.9999881
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot121.jpg,bud_rot,bud_rot,bud_rot,0.9999724,True,0.9999468
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1241.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999998,True,0.9999997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1730.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998707,True,0.99997437
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1228.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99937004,True,0.99877506
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot870.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9953545,True,0.9925079
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot686.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999611,True,0.999931
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot416.jpg,leaf_rot,leaf_rot,leaf_rot,0.999991,True,0.9999867
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_51.jpg,healthy,healthy,healthy,0.9999998,True,0.9999997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1089.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.97412884,True,0.94832873
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding933.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999848,True,0.99997306
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1207.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9954391,True,0.99092734
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding598.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot567.jpg,leaf_rot,leaf_rot,leaf_rot,0.99997956,True,0.99996
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot254.jpg,leaf_rot,leaf_rot,leaf_rot,0.9993256,True,0.9989346
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding641.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999992,True,0.99999875
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot027.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99985105,True,0.9997697
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot445.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999946,True,0.99999917
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot306.jpg,leaf_rot,leaf_rot,leaf_rot,0.99922174,True,0.99846184
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot960.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.81976706,True,0.6428382
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1314.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999756,True,0.99999523
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot214.jpg,bud_rot,bud_rot,bud_rot,0.99967253,True,0.9993551
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping258.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping214.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999909,True,0.99998206
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1641.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998074,True,0.99961686
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1462.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9993244,True,0.99873996
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1362.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999344,True,0.9998702
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding651.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.9999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot418.jpg,bud_rot,bud_rot,bud_rot,0.9992287,True,0.99878
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1696.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999959,True,0.999992
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping372.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.999453,True,0.99890625
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot438.jpg,bud_rot,bud_rot,bud_rot,0.99972403,True,0.99946356
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1654.jpg,leaf_rot,leaf_rot,leaf_rot,0.99987096,True,0.9997874
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding261.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999997,True,0.9999995
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot558.jpg,leaf_rot,leaf_rot,leaf_rot,0.99994105,True,0.99990517
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1456.jpg,leaf_rot,leaf_rot,leaf_rot,0.99438024,True,0.9887779
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_9.jpg,healthy,healthy,healthy,0.9999911,True,0.9999834
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1548.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99994427,True,0.9998888
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot100.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999626,True,0.99993
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping204.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999514,True,0.99990416
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping311.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9968141,True,0.9943382
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot368.jpg,leaf_rot,leaf_rot,leaf_rot,0.9996082,True,0.99930257
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping332.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999531,True,0.9999099
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1282.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9995703,True,0.99920315
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot174.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999961,True,0.9999939
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1399.jpg,leaf_rot,leaf_rot,leaf_rot,0.99803424,True,0.9960689
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot425.jpg,leaf_rot,leaf_rot,leaf_rot,0.9046318,True,0.80933404
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1438.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999934,True,0.9999987
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot865.jpg,leaf_rot,leaf_rot,leaf_rot,0.999694,True,0.9993934
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1656.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999854,True,0.9999735
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1366.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.97605145,True,0.95210516
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1396.jpg,leaf_rot,leaf_rot,leaf_rot,0.997619,True,0.995239
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1944.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999805,True,0.99996185
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot308.jpg,bud_rot,bud_rot,bud_rot,0.999999,True,0.9999982
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping017.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999076,True,0.9999815
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot866.jpg,leaf_rot,leaf_rot,leaf_rot,0.99991995,True,0.99985194
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot646.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999868,True,0.9999741
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot283.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99993414,True,0.99987125
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot380.jpg,bud_rot,bud_rot,bud_rot,0.9996198,True,0.9993841
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1292.jpg,leaf_rot,leaf_rot,leaf_rot,0.99826866,True,0.9965387
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot499.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999934,True,0.99999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot739.jpg,leaf_rot,leaf_rot,leaf_rot,0.99993664,True,0.99989223
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding193.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1559.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999999,True,0.9999984
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding194.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping510.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999994,True,0.9999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot198.jpg,bud_rot,bud_rot,bud_rot,0.9997714,True,0.99954623
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot167.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9993742,True,0.99880385
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding485.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999964
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1274.jpg,leaf_rot,leaf_rot,leaf_rot,0.99991006,True,0.9998293
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot266.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999978,True,0.99999636
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding202.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding052.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999996,True,0.99999934
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping502.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999971,True,0.9999947
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding412.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.9999997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1570.jpg,leaf_rot,leaf_rot,leaf_rot,0.99882513,True,0.9976667
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot979.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9620835,True,0.9339253
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot680.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99993867,True,0.99989
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot595.jpg,leaf_rot,leaf_rot,leaf_rot,0.9996549,True,0.9993229
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1464.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999638,True,0.9999456
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding043.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot420.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999996,True,0.9999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot508.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999946,True,0.9999989
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1136.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999216,True,0.9998462
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot776.jpg,leaf_rot,leaf_rot,leaf_rot,0.99983317,True,0.9997189
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2132.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999991,True,0.9999982
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot244.jpg,leaf_rot,leaf_rot,leaf_rot,0.998648,True,0.9974245
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1853.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99996907,True,0.99994564
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding566.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot554.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999879,True,0.99997723
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1796.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99997884,True,0.99995875
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1564.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999309,True,0.99986327
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2043.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999998,True,0.99999964
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot389.jpg,leaf_rot,leaf_rot,leaf_rot,0.999898,True,0.9997975
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot381.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999903,True,0.9999854
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding072.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999064,True,0.99998176
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1707.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999941,True,0.99999046
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1168.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999973,True,0.99999475
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1470.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999243,True,0.999985
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot324.jpg,bud_rot,bud_rot,bud_rot,0.9999996,True,0.9999992
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1259.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9995145,True,0.9990319
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping169.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99920267,True,0.99845207
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1506.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999108,True,0.999822
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot158.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999779,True,0.9999631
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding468.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot279.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999911,True,0.9999828
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping242.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999636,True,0.9999931
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1477.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99958605,True,0.99930996
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot214.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998215,True,0.9996495
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_41.jpg,healthy,healthy,healthy,0.9999859,True,0.9999781
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding637.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding584.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999983,True,0.99999666
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot283.jpg,bud_rot,bud_rot,bud_rot,0.99982566,True,0.99966353
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping213.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99997216,True,0.9999464
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1359.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999289,True,0.9985782
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot575.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999098,True,0.9998348
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding783.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1002.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998018,True,0.9996115
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding790.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999595,True,0.99993074
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot341.jpg,leaf_rot,leaf_rot,leaf_rot,0.9792277,True,0.9584558
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1814.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999374,True,0.99998766
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding100.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99995583,True,0.99992454
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping163.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99828804,True,0.9965825
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1909.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9980738,True,0.9966625
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding479.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding824.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999803,True,0.99996066
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding997.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping174.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99993485,True,0.9998715
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping316.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99998647,True,0.99997723
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot064.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99233216,True,0.98493445
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1640.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9996088,True,0.99922454
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot167.jpg,bud_rot,bud_rot,bud_rot,0.9997693,True,0.99957603
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding351.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1281.jpg,leaf_rot,leaf_rot,leaf_rot,0.99998075,True,0.99996245
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot793.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99997693,True,0.99995416
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping298.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99950963,True,0.9990198
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1309.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99851686,True,0.9974992
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1295.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99932665,True,0.9986701
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1615.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999886,True,0.9999774
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1706.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999375,True,0.9998993
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1337.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999997,True,0.9999996
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot942.jpg,leaf_rot,leaf_rot,leaf_rot,0.99997586,True,0.99995184
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2119.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99976045,True,0.9995221
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot314.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99398357,True,0.9880785
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot926.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99635553,True,0.9941602
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding589.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999991,True,0.99999833
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot136.jpg,bud_rot,bud_rot,bud_rot,0.9999953,True,0.9999928
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot594.jpg,leaf_rot,leaf_rot,leaf_rot,0.99769723,True,0.9958125
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot247.jpg,leaf_rot,leaf_rot,leaf_rot,0.99968076,True,0.9994016
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping398.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999624,True,0.99999416
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot259.jpg,bud_rot,bud_rot,bud_rot,0.99962145,True,0.9992643
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot248.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999322,True,0.9998918
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot703.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999928,True,0.99998623
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot572.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99773824,True,0.9955649
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1243.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998979,True,0.9997974
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot649.jpg,leaf_rot,leaf_rot,leaf_rot,0.9625547,True,0.9254853
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot277.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999911,True,0.99998367
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1051.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99856806,True,0.9971389
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot133.jpg,bud_rot,bud_rot,bud_rot,0.9999972,True,0.9999958
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot204.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998516,True,0.99997735
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot372.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9993786,True,0.9990175
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2065.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999016,True,0.99980795
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding018.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999946,True,0.99999905
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping134.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.999919,True,0.9998393
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1460.jpg,leaf_rot,leaf_rot,leaf_rot,0.9795205,True,0.9590426
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1694.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998206,True,0.9999726
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot215.jpg,bud_rot,bud_rot,bud_rot,0.9998886,True,0.99980235
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping084.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999744,True,0.9999953
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1094.jpg,leaf_rot,leaf_rot,leaf_rot,0.9995598,True,0.9991211
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1762.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9997975,True,0.99966246
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2110.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999996,True,0.99999213
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot088.jpg,leaf_rot,leaf_rot,leaf_rot,0.9992372,True,0.99847454
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1692.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99870574,True,0.9979495
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding383.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99995273,True,0.99990726
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot887.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99595827,True,0.99226165
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1420.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999971,True,0.9999945
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1234.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999847,True,0.9999699
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot260.jpg,leaf_rot,leaf_rot,leaf_rot,0.99981254,True,0.9996931
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot263.jpg,bud_rot,bud_rot,bud_rot,0.9998563,True,0.9997216
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot855.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9983954,True,0.9975583
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot509.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999934,True,0.99999875
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding478.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping261.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9990758,True,0.99817795
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping109.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99862975,True,0.99743056
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot447.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999973,True,0.9999952
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping087.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999064,True,0.99998236
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot120.jpg,bud_rot,bud_rot,bud_rot,0.99998826,True,0.9999777
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1480.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99991065,True,0.99986386
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot729.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99994105,True,0.99990666
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot241.jpg,bud_rot,bud_rot,bud_rot,0.9900054,True,0.9804515
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot157.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999499,True,0.99991983
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1069.jpg,leaf_rot,leaf_rot,leaf_rot,0.9977656,True,0.99555403
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1116.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999971,True,0.9999943
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot356.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.998254,True,0.9965095
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1511.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999458,True,0.9999115
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1993.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9988603,True,0.9977261
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding354.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding930.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99997777,True,0.9999556
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_1.jpg,healthy,healthy,healthy,0.9999972,True,0.9999951
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1637.jpg,leaf_rot,leaf_rot,leaf_rot,0.99984545,True,0.99969345
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping369.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999183,True,0.9999837
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1217.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999759,True,0.9995327
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1126.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999565,True,0.9999914
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding826.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999215,True,0.99984324
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding187.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot938.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99977106,True,0.9995819
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1017.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999971,True,0.99999535
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1365.jpg,leaf_rot,leaf_rot,leaf_rot,0.9992172,True,0.9984368
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping142.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99655783,True,0.99311644
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1595.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999569,True,0.99991727
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot921.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9923054,True,0.9859795
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding310.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot382.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999793,True,0.99996734
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot122.jpg,bud_rot,bud_rot,bud_rot,0.9999531,True,0.9999134
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_19.jpg,healthy,healthy,healthy,0.99996215,True,0.9999343
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot786.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999626,True,0.9999288
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot163.jpg,leaf_rot,leaf_rot,leaf_rot,0.99997944,True,0.99996364
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot724.jpg,leaf_rot,leaf_rot,leaf_rot,0.99434566,True,0.9899738
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot775.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99989027,True,0.9997878
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1580.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99994487,True,0.99990326
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot163.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9996464,True,0.99935424
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping192.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999984,True,0.99999684
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1555.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99972045,True,0.9994412
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1256.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9994827,True,0.99897176
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1992.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99984306,True,0.9996884
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2070.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9996581,True,0.9994106
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot123.jpg,bud_rot,bud_rot,bud_rot,0.9999841,True,0.99997056
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot810.jpg,leaf_rot,leaf_rot,leaf_rot,0.99958855,True,0.9991901
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1267.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99656904,True,0.99443555
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1356.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999887,True,0.99999803
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping202.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot940.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99982184,True,0.99970263
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot331.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999961,True,0.9999924
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1274.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9955051,True,0.9916451
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot448.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999983,True,0.99999696
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot268.jpg,bud_rot,bud_rot,bud_rot,0.99995583,True,0.999931
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot228.jpg,bud_rot,bud_rot,bud_rot,0.9977565,True,0.9956325
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot077.jpg,leaf_rot,leaf_rot,bud_rot,0.99999815,False,0.9999966
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding535.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999815,True,0.99999666
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1669.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999934,True,0.99999887
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot757.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999934,True,0.9999988
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding123.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999239,True,0.9998737
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot360.jpg,leaf_rot,leaf_rot,gray_leaf_spot,0.97763526,False,0.95547277
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1840.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999887,True,0.99999785
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1358.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999577,True,0.99999183
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding608.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999985,True,0.99999714
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot189.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999446,True,0.9999915
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1803.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998551,True,0.9997715
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding157.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999996,True,0.99999934
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1477.jpg,leaf_rot,leaf_rot,leaf_rot,0.9997824,True,0.9995674
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot930.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9995584,True,0.9992742
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping348.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999878,True,0.9999763
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot001.jpg,leaf_rot,leaf_rot,leaf_rot,0.99869764,True,0.9974344
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping038.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9969985,True,0.9940052
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding644.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1338.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9906968,True,0.9840822
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot311.jpg,bud_rot,bud_rot,bud_rot,0.9999977,True,0.99999577
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding533.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999636,True,0.99999285
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot958.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99940854,True,0.9989475
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping420.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999884,True,0.9999768
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1655.jpg,leaf_rot,leaf_rot,leaf_rot,0.9995089,True,0.99907905
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping410.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999946,True,0.999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding356.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot709.jpg,leaf_rot,leaf_rot,leaf_rot,0.9997956,True,0.9996035
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot617.jpg,leaf_rot,leaf_rot,leaf_rot,0.9993637,True,0.99878895
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1325.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999997,True,0.99999946
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot302.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998516,True,0.9999741
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding124.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999905,True,0.9999842
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping475.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999921,True,0.999985
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot207.jpg,bud_rot,bud_rot,bud_rot,0.9985603,True,0.9971224
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding306.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot119.jpg,bud_rot,bud_rot,bud_rot,0.9999898,True,0.9999828
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2100.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9996262,True,0.9993175
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot451.jpg,bud_rot,bud_rot,bud_rot,0.9999892,True,0.9999795
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding893.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding135.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1594.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999624,True,0.99999315
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot770.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998973,True,0.9998138
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot406.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999934,True,0.999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_73.jpg,healthy,healthy,healthy,0.99999374,True,0.999988
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot561.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999239,True,0.99987686
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2049.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999998,True,0.99999964
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding230.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot398.jpg,bud_rot,bud_rot,bud_rot,0.9999135,True,0.9998411
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot031.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9990606,True,0.9981264
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot801.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999076,True,0.99998176
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot567.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99916357,True,0.99833035
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding347.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding860.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999978,True,0.9999962
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot300.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99983484,True,0.9997655
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding463.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999636,True,0.9999928
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding922.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999954,True,0.9999935
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2019.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998313,True,0.9999674
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot737.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999921,True,0.99998665
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1554.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99992234,True,0.9998453
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding153.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping388.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999569,True,0.99991477
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot533.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999991,True,0.99999857
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1966.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9995393,True,0.9991336
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot595.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9986537,True,0.9973613
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding233.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot238.jpg,bud_rot,bud_rot,bud_rot,0.9736829,True,0.9477058
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1788.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999952,True,0.99999064
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot949.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998235,True,0.9996996
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot916.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99542373,True,0.99179417
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding140.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999997,True,0.9999995
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot086.jpg,leaf_rot,leaf_rot,leaf_rot,0.9993313,True,0.9986634
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1729.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999636,True,0.9999928
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding578.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot144.jpg,bud_rot,bud_rot,bud_rot,0.9999985,True,0.99999726
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1684.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999215,True,0.9998772
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot263.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999815,True,0.9999972
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding145.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot297.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9993718,True,0.9987455
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1242.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999998,True,0.99999964
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding923.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999991,True,0.9999985
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot840.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999915,True,0.99998444
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot137.jpg,leaf_rot,leaf_rot,leaf_rot,0.999953,True,0.99991065
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1826.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99970734,True,0.9994164
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_95.jpg,healthy,healthy,healthy,0.9999992,True,0.99999845
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1430.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999835,True,0.9999675
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1236.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999829,True,0.9999711
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot346.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999857,True,0.999714
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding993.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot033.jpg,bud_rot,bud_rot,bud_rot,0.99998254,True,0.99997145
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot886.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9969293,True,0.99539095
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot922.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9728868,True,0.9494698
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot429.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding047.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding035.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999934,True,0.99999905
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot983.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999992,True,0.9999987
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot174.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9997892,True,0.9995948
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding304.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.9999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot354.jpg,bud_rot,bud_rot,bud_rot,0.9999102,True,0.9998274
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot974.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9843759,True,0.9702206
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot963.jpg,leaf_rot,leaf_rot,leaf_rot,0.9994177,True,0.9988372
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping064.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999815,True,0.99999636
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping288.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.995258,True,0.99051964
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_79.jpg,healthy,healthy,healthy,0.9999519,True,0.99990726
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot222.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9997467,True,0.99950546
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1399.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99814034,True,0.9963676
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1536.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99948233,True,0.99896485
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1227.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99428165,True,0.9886193
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping483.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999948,True,0.99999094
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot820.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999887,True,0.9999979
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding282.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping426.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999998,True,0.9999997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1026.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999986,True,0.9999975
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot490.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999698,True,0.9999485
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot927.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999868,True,0.99997395
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping221.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999997,True,0.9999996
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding240.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.9999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1174.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998501,True,0.9997041
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping309.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9881648,True,0.97659767
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot705.jpg,leaf_rot,leaf_rot,leaf_rot,0.99962705,True,0.9992652
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot116.jpg,leaf_rot,leaf_rot,leaf_rot,0.999996,True,0.9999942
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot083.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9811476,True,0.96235764
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1298.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9943132,True,0.9894941
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1334.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99304104,True,0.9872856
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot470.jpg,bud_rot,bud_rot,bud_rot,0.999986,True,0.99997556
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1485.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9879911,True,0.9771937
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot366.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999946,True,0.99999917
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1682.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999259,True,0.9998847
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot259.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999565,True,0.99999195
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding877.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot462.jpg,bud_rot,bud_rot,bud_rot,0.99999267,True,0.9999858
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding242.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.9999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot855.jpg,leaf_rot,leaf_rot,leaf_rot,0.9990316,True,0.9980645
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot899.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999277,True,0.9998557
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot048.jpg,leaf_rot,leaf_rot,leaf_rot,0.99141294,True,0.984488
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_97.jpg,healthy,healthy,healthy,0.9999998,True,0.9999997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1053.jpg,leaf_rot,leaf_rot,leaf_rot,0.90870446,True,0.81741804
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding338.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1155.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998402,True,0.99968034
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot184.jpg,bud_rot,bud_rot,bud_rot,0.9998606,True,0.9997431
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding779.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1728.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998564,True,0.99997264
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2094.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99980015,True,0.9996019
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1818.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998397,True,0.9996957
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot430.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999997,True,0.9999995
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot666.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999636,True,0.99999285
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1175.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998298,True,0.9996603
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1015.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99984366,True,0.9997055
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot571.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999576,True,0.9999195
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1540.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99982053,True,0.999641
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1384.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999637,True,0.9999277
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1188.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9987769,True,0.99784404
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot264.jpg,bud_rot,bud_rot,bud_rot,0.9999723,True,0.9999478
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding016.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.999999,True,0.9999981
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding363.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2105.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999406,True,0.9998845
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_114.jpg,healthy,healthy,healthy,0.99967,True,0.99934673
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping462.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999243,True,0.999986
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot455.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999136,True,0.99998534
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding132.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1791.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999977,True,0.9999955
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot433.jpg,leaf_rot,leaf_rot,leaf_rot,0.9789123,True,0.9578781
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1058.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9240097,True,0.848029
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot104.jpg,bud_rot,bud_rot,bud_rot,0.9999929,True,0.99998873
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot412.jpg,leaf_rot,leaf_rot,leaf_rot,0.9996551,True,0.9993286
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1858.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99973106,True,0.99955195
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot197.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999364,True,0.9999046
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1329.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.973525,True,0.94722295
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding290.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1127.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999936,True,0.9999874
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding336.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping507.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999998,True,0.9999997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot647.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999148,True,0.9998301
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot093.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999875,True,0.9999979
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1161.jpg,leaf_rot,leaf_rot,leaf_rot,0.99820167,True,0.9964646
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1135.jpg,leaf_rot,leaf_rot,leaf_rot,0.999986,True,0.9999733
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot975.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.98868006,True,0.9791023
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot285.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999781,True,0.9999689
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot195.jpg,bud_rot,bud_rot,bud_rot,0.99999636,True,0.9999927
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot078.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99605644,True,0.9923318
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1049.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9994146,True,0.9988444
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1080.jpg,leaf_rot,leaf_rot,leaf_rot,0.99725914,True,0.9945676
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding852.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding481.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1082.jpg,leaf_rot,leaf_rot,leaf_rot,0.9985986,True,0.9972605
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot257.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999696,True,0.9999946
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding060.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999744,True,0.99999595
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot240.jpg,bud_rot,bud_rot,bud_rot,0.93887335,True,0.8781438
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot607.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999823,True,0.9999709
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot598.jpg,leaf_rot,leaf_rot,leaf_rot,0.99987596,True,0.9997863
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot314.jpg,bud_rot,bud_rot,bud_rot,0.99940175,True,0.99880666
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_69.jpg,healthy,healthy,healthy,0.9999556,True,0.99991196
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping030.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999916,True,0.9999834
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding842.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999875,True,0.9999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1873.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999853,True,0.9999775
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding337.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot445.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999368,True,0.9987437
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot527.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999997,True,0.9999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1216.jpg,leaf_rot,leaf_rot,leaf_rot,0.9804889,True,0.97074324
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1437.jpg,leaf_rot,leaf_rot,leaf_rot,0.9852691,True,0.9705802
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1027.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9987808,True,0.9975958
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1964.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999602,True,0.9992474
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding106.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9998277,True,0.9996712
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping144.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99802417,True,0.9960516
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot441.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999743,True,0.99952704
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1176.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999009,True,0.99980384
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot924.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.86929893,True,0.7417012
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot658.jpg,leaf_rot,leaf_rot,leaf_rot,0.9992184,True,0.99843997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot901.jpg,leaf_rot,leaf_rot,leaf_rot,0.9995834,True,0.99916893
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1494.jpg,leaf_rot,leaf_rot,leaf_rot,0.9737137,True,0.94743294
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1143.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999303,True,0.99986863
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot565.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99983877,True,0.9996991
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1782.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9992855,True,0.99857473
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1028.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9865986,True,0.9734146
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot622.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99963194,True,0.9993433
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot211.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9954384,True,0.9909363
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1943.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999965,True,0.99999326
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot526.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999997,True,0.99999946
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_102.jpg,healthy,healthy,healthy,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding001.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping513.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999992,True,0.9999986
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1258.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998992,True,0.9998116
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping443.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999815,True,0.999997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot186.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999505,True,0.99999285
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot370.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998015,True,0.9999675
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding761.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot265.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999909,True,0.9999862
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping411.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999374,True,0.99998796
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot459.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999688,True,0.99993986
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding707.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1448.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999979,True,0.9999959
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot347.jpg,bud_rot,bud_rot,bud_rot,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1307.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999983,True,0.9999966
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot623.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999978,True,0.9999957
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot760.jpg,leaf_rot,leaf_rot,leaf_rot,0.99990565,True,0.9998163
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot168.jpg,bud_rot,bud_rot,bud_rot,0.9999208,True,0.9998484
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot192.jpg,bud_rot,bud_rot,bud_rot,0.99994546,True,0.99989223
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1346.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99437076,True,0.9887754
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping467.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999636,True,0.99999344
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1189.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9997078,True,0.99945134
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot264.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998036,True,0.9996584
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot439.jpg,leaf_rot,leaf_rot,leaf_rot,0.97082907,True,0.9417084
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot941.jpg,leaf_rot,leaf_rot,leaf_rot,0.99992055,True,0.99984205
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot552.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999565,True,0.99999166
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot560.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99996597,True,0.9999323
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot040.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99935776,True,0.9987196
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot755.jpg,leaf_rot,leaf_rot,leaf_rot,0.99862486,True,0.9973902
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot957.jpg,leaf_rot,leaf_rot,leaf_rot,0.8108396,True,0.6218398
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding853.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot351.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999394,True,0.999879
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding895.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1471.jpg,leaf_rot,leaf_rot,leaf_rot,0.99968743,True,0.999375
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot032.jpg,bud_rot,bud_rot,bud_rot,0.99996454,True,0.9999379
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1749.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999684,True,0.9999941
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1141.jpg,leaf_rot,leaf_rot,leaf_rot,0.99996465,True,0.99993396
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1271.jpg,leaf_rot,leaf_rot,leaf_rot,0.99993855,True,0.9998962
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot712.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999994,True,0.9999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot145.jpg,leaf_rot,leaf_rot,leaf_rot,0.99992913,True,0.9998936
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2016.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999955,True,0.9999916
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_74.jpg,healthy,healthy,healthy,0.9959408,True,0.9919093
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1023.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999983,True,0.9999967
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot367.jpg,leaf_rot,leaf_rot,leaf_rot,0.9991056,True,0.9982631
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1235.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999377,True,0.99990666
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1824.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9986399,True,0.9972831
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1702.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999965,True,0.9999951
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot351.jpg,bud_rot,bud_rot,bud_rot,0.9994342,True,0.9989317
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1515.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9995509,True,0.9992423
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding431.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1201.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998955,True,0.99979144
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1610.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998571,True,0.99971795
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1401.jpg,leaf_rot,leaf_rot,leaf_rot,0.99998695,True,0.99997455
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1607.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999874,True,0.9999751
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping055.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999961,True,0.9999924
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping082.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999997,True,0.99999946
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot791.jpg,leaf_rot,leaf_rot,leaf_rot,0.9991448,True,0.9984346
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2017.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998647,True,0.9999745
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot864.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9961329,True,0.9927686
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1645.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999988,True,0.9999766
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot387.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999806,True,0.9999622
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot300.jpg,bud_rot,bud_rot,bud_rot,0.9999537,True,0.9999091
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1635.jpg,leaf_rot,leaf_rot,leaf_rot,0.99996644,True,0.9999339
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding503.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99998695,True,0.9999741
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1202.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9993027,True,0.99860555
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1402.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9993219,True,0.99864626
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1405.jpg,leaf_rot,leaf_rot,leaf_rot,0.999906,True,0.9998121
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1005.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999946,True,0.9999991
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1011.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999875,True,0.99999803
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding599.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999978,True,0.9999959
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot401.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot847.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99892086,True,0.9982512
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1893.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999929,True,0.99998695
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot165.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99991053,True,0.9998637
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot082.jpg,bud_rot,bud_rot,bud_rot,0.9999806,True,0.9999687
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot903.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999605,True,0.9999214
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1558.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999953,True,0.99999267
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot007.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99711365,True,0.9942296
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding273.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot790.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999829,True,0.9999665
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding039.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding150.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot078.jpg,leaf_rot,leaf_rot,leaf_rot,0.986266,True,0.972533
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot172.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999815,True,0.999997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot766.jpg,leaf_rot,leaf_rot,leaf_rot,0.9958643,True,0.99174756
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot173.jpg,bud_rot,bud_rot,bud_rot,0.99996215,True,0.9999261
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot385.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999984,True,0.9999973
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding344.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1131.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999991,True,0.9999984
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping088.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999984,True,0.999997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding981.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1851.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999451,True,0.99989617
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot622.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999829,True,0.9999688
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding572.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1569.jpg,leaf_rot,leaf_rot,leaf_rot,0.99979645,True,0.99959433
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot968.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.90601933,True,0.8205487
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot374.jpg,leaf_rot,leaf_rot,leaf_rot,0.99937683,True,0.99883205
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1059.jpg,leaf_rot,leaf_rot,leaf_rot,0.9949379,True,0.9898796
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2104.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999768,True,0.9999546
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot068.jpg,leaf_rot,leaf_rot,leaf_rot,0.98372555,True,0.9683836
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding1000.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999992,True,0.99999887
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1122.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999744,True,0.99999493
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot361.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999315,True,0.9999894
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding021.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999942,True,0.99999046
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1099.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998912,True,0.9997835
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot305.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999996,True,0.99999934
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1403.jpg,leaf_rot,leaf_rot,leaf_rot,0.99996346,True,0.99992704
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping504.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999887,True,0.99999845
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1598.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999977,True,0.99999565
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1221.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998623,True,0.9999763
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1016.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9933766,True,0.9867591
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1144.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999775,True,0.9999551
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1994.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99886805,True,0.9977484
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1114.jpg,leaf_rot,leaf_rot,leaf_rot,0.99973166,True,0.9994642
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1195.jpg,leaf_rot,leaf_rot,leaf_rot,0.993721,True,0.987444
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot288.jpg,leaf_rot,leaf_rot,leaf_rot,0.9985258,True,0.9970938
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot918.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.97087777,True,0.9429784
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1024.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9978636,True,0.99573314
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding796.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999524,True,0.99990517
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1495.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999723,True,0.9999506
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot231.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9993263,True,0.99878716
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot288.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99940187,True,0.99880576
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot027.jpg,leaf_rot,leaf_rot,leaf_rot,0.99978584,True,0.99971014
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding1001.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999997,True,0.9999996
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot873.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99834913,True,0.99694383
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1302.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999468,True,0.9998936
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1703.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999706,True,0.9999422
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2131.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999999,True,0.999998
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_6.jpg,healthy,healthy,healthy,0.9994734,True,0.9991303
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot298.jpg,leaf_rot,leaf_rot,leaf_rot,0.99811167,True,0.99623203
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1445.jpg,leaf_rot,leaf_rot,leaf_rot,0.9922131,True,0.9844265
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1055.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9993709,True,0.998744
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding766.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1022.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9982364,True,0.99650174
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot749.jpg,leaf_rot,leaf_rot,leaf_rot,0.9996414,True,0.9992848
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1321.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1882.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99993783,True,0.99988735
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot986.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999992,True,0.9999986
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot844.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999994,True,0.9999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot433.jpg,bud_rot,bud_rot,bud_rot,0.9988244,True,0.99768406
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding322.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding534.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999887,True,0.9999979
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1360.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.98003644,True,0.9600756
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding067.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999859,True,0.99997205
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding870.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1353.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999493,True,0.99999064
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot240.jpg,leaf_rot,leaf_rot,leaf_rot,0.996359,True,0.99282664
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping111.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9971042,True,0.994519
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot549.jpg,leaf_rot,leaf_rot,leaf_rot,0.9996854,True,0.99938256
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot692.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999992,True,0.9999988
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot896.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9624041,True,0.9251915
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding063.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999946,True,0.9999991
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1669.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999799,True,0.9999691
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot420.jpg,bud_rot,bud_rot,bud_rot,0.9819147,True,0.9698355
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding200.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1634.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999122,True,0.99983627
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping100.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9985713,True,0.99726766
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1482.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999243,True,0.9999859
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1663.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99164397,True,0.98342
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2081.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998351,True,0.9996709
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1557.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9996798,True,0.99935985
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1318.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999992,True,0.99999857
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2004.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9988932,True,0.99787426
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_11.jpg,healthy,healthy,healthy,0.99998254,True,0.99996865
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1168.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999563,True,0.99991554
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot631.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9993395,True,0.99868244
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot359.jpg,bud_rot,bud_rot,bud_rot,0.99920803,True,0.9984905
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1343.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9987995,True,0.9976155
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding988.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1101.jpg,leaf_rot,leaf_rot,leaf_rot,0.99881727,True,0.99763507
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping247.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999303,True,0.9998639
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot820.jpg,leaf_rot,leaf_rot,leaf_rot,0.999175,True,0.99849755
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1025.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999992,True,0.99999857
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot111.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998504,True,0.99997395
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2107.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998943,True,0.99981415
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding343.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot719.jpg,leaf_rot,leaf_rot,leaf_rot,0.9974089,True,0.99481857
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping313.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99753815,True,0.9951051
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot850.jpg,leaf_rot,leaf_rot,leaf_rot,0.99997085,True,0.9999418
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1490.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999966,True,0.9999943
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot547.jpg,leaf_rot,leaf_rot,leaf_rot,0.9992651,True,0.9985814
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1608.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998488,True,0.99970174
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1860.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9996617,True,0.9994588
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot748.jpg,leaf_rot,leaf_rot,leaf_rot,0.99982506,True,0.99965394
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1699.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999986,True,0.99999744
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot221.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999445,True,0.9999073
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1459.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot670.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999781,True,0.9999627
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1270.jpg,leaf_rot,leaf_rot,leaf_rot,0.99998957,True,0.99998504
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot139.jpg,bud_rot,bud_rot,bud_rot,0.9999741,True,0.9999531
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping034.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999142,True,0.9998292
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding301.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999996,True,0.9999993
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding292.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot368.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999991,True,0.9999986
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping132.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9998948,True,0.9997928
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping500.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999972,True,0.9999958
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot050.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999709,True,0.99941945
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot426.jpg,leaf_rot,leaf_rot,leaf_rot,0.9296294,True,0.8592902
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding770.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot236.jpg,bud_rot,bud_rot,bud_rot,0.9996985,True,0.9994277
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot601.jpg,gray_leaf_spot,gray_leaf_spot,leaf_rot,0.60848844,False,0.21697834
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1742.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9991576,True,0.99877244
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding544.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9995839,True,0.9993549
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1921.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99695325,True,0.995121
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping459.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999255,True,0.9999866
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot664.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999508,True,0.9999214
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1758.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998705,True,0.9998079
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1618.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999357,True,0.99988526
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot399.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1937.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99974644,True,0.99950063
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping352.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999961,True,0.99999255
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot115.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999954,True,0.99999344
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot777.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999884,True,0.9999824
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot990.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot025.jpg,leaf_rot,leaf_rot,leaf_rot,0.9990187,True,0.9980423
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot039.jpg,leaf_rot,leaf_rot,leaf_rot,0.9993449,True,0.9986937
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot804.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998937,True,0.999788
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1387.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99970245,True,0.9994263
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot185.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999243,True,0.9999877
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot458.jpg,bud_rot,bud_rot,bud_rot,0.9999735,True,0.9999512
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot796.jpg,leaf_rot,leaf_rot,leaf_rot,0.99935526,True,0.9988924
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot330.jpg,leaf_rot,leaf_rot,leaf_rot,0.99998564,True,0.99997133
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot485.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999887,True,0.99999785
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot124.jpg,bud_rot,bud_rot,bud_rot,0.9999985,True,0.99999726
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot425.jpg,bud_rot,bud_rot,bud_rot,0.9997732,True,0.99955124
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping003.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9993283,True,0.99885863
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding350.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot103.jpg,bud_rot,bud_rot,bud_rot,0.9999929,True,0.9999881
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping050.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99998146,True,0.999963
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot421.jpg,leaf_rot,leaf_rot,leaf_rot,0.99928087,True,0.998586
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot028.jpg,leaf_rot,leaf_rot,leaf_rot,0.9995528,True,0.9993637
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot870.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999283,True,0.9998644
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding953.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.999999,True,0.99999803
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding623.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999984,True,0.99999696
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot563.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999625,True,0.9999411
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot081.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998831,True,0.99976814
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot279.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999991,True,0.9999982
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot213.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999748,True,0.999953
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding955.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999875,True,0.99999756
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot358.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99908555,True,0.9981723
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1616.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999696,True,0.99999446
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping380.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.999991,True,0.9999822
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping185.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999985,True,0.9999971
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1460.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.997697,True,0.9954727
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot408.jpg,leaf_rot,leaf_rot,leaf_rot,0.99990195,True,0.99980485
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding074.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999744,True,0.99999565
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding818.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999506,True,0.999912
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot132.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999302,True,0.99987274
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot914.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99619514,True,0.9941526
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1367.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999257,True,0.9998529
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot313.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.97052634,True,0.9412008
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot405.jpg,leaf_rot,leaf_rot,leaf_rot,0.99988574,True,0.99977356
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot781.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999904,True,0.99998254
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot040.jpg,leaf_rot,leaf_rot,leaf_rot,0.99977165,True,0.99956304
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1251.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9773809,True,0.9547827
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding440.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999921,True,0.9999842
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1958.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998266,True,0.99996537
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot937.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9996674,True,0.9994656
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1778.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99996656,True,0.9999331
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot759.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99857557,True,0.99735856
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1042.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9994975,True,0.9990145
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot395.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998891,True,0.9997828
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot317.jpg,bud_rot,bud_rot,bud_rot,0.98414415,True,0.9683157
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding961.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot196.jpg,bud_rot,bud_rot,bud_rot,0.99999315,True,0.9999866
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping085.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99993664,True,0.99987704
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding423.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot541.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999972,True,0.9999946
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding793.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99974966,True,0.99955
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot296.jpg,bud_rot,bud_rot,bud_rot,0.99999386,True,0.9999882
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1022.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot269.jpg,leaf_rot,leaf_rot,leaf_rot,0.993765,True,0.98859346
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding500.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999983,True,0.99999666
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1936.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999859,True,0.99997234
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1073.jpg,leaf_rot,leaf_rot,leaf_rot,0.99107057,True,0.9821526
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_111.jpg,healthy,healthy,healthy,0.9999576,True,0.99991554
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot275.jpg,bud_rot,bud_rot,bud_rot,0.99984103,True,0.9997612
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1801.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999565,True,0.9999917
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1563.jpg,leaf_rot,leaf_rot,leaf_rot,0.99965155,True,0.9993123
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding362.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot631.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999953,True,0.9999907
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping158.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9960753,True,0.9921952
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot593.jpg,leaf_rot,leaf_rot,leaf_rot,0.9992404,True,0.9988533
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot361.jpg,leaf_rot,leaf_rot,leaf_rot,0.99174106,True,0.9836144
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1231.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998325,True,0.99997103
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot443.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999493,True,0.9999907
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1157.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999388,True,0.99987763
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1430.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999953,True,0.9999911
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding732.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999996,True,0.9999992
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding040.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1385.jpg,leaf_rot,leaf_rot,leaf_rot,0.9913503,True,0.9827019
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1813.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999936,True,0.9999875
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot868.jpg,leaf_rot,leaf_rot,leaf_rot,0.99980015,True,0.99960387
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding964.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.9999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot613.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.965488,True,0.93106675
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1449.jpg,leaf_rot,leaf_rot,leaf_rot,0.9951032,True,0.9902083
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding713.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding909.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding099.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99995345,True,0.9999139
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot801.jpg,leaf_rot,leaf_rot,leaf_rot,0.99997085,True,0.9999453
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1183.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99978405,True,0.99957794
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding372.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999946,True,0.99999905
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot994.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999692,True,0.99994457
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot585.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.97129196,True,0.94267064
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot957.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9998686,True,0.9997645
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot952.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999898,True,0.9999824
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1577.jpg,leaf_rot,leaf_rot,leaf_rot,0.99998814,True,0.99998003
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1619.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot450.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999446,True,0.9999895
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot834.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999688,True,0.9999385
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding710.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot397.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999289,True,0.99986035
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1415.jpg,leaf_rot,leaf_rot,leaf_rot,0.999968,True,0.9999371
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot770.jpg,leaf_rot,leaf_rot,leaf_rot,0.9994466,True,0.9989123
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding089.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999946,True,0.9999898
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1794.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998647,True,0.99997354
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1312.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999984,True,0.99999696
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot159.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999432,True,0.9999101
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1268.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999822,True,0.9999679
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot226.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99991184,True,0.9998296
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1175.jpg,leaf_rot,leaf_rot,leaf_rot,0.99987,True,0.9997424
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot481.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.999994,True,0.999988
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding092.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999843,True,0.999974
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1157.jpg,leaf_rot,leaf_rot,leaf_rot,0.9993326,True,0.9986955
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding747.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999997,True,0.9999995
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding656.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1191.jpg,leaf_rot,leaf_rot,leaf_rot,0.9992498,True,0.998506
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot255.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.88831896,True,0.778468
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1743.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9995484,True,0.9991975
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding470.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping012.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9996774,True,0.99941295
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping251.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999811,True,0.9999623
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1147.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999592,True,0.9999184
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot703.jpg,leaf_rot,leaf_rot,leaf_rot,0.9996137,True,0.9992367
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1386.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9996716,True,0.99935496
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot609.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999386,True,0.99998826
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1165.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999887,True,0.99999803
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding236.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot610.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999972,True,0.999995
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding938.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot733.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999005,True,0.99980384
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1623.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999991,True,0.99999833
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot492.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999565,True,0.99999326
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot966.jpg,leaf_rot,leaf_rot,leaf_rot,0.99976915,True,0.9995393
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding613.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999946,True,0.9999991
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping182.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999946,True,0.99999905
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot411.jpg,bud_rot,bud_rot,bud_rot,0.9997351,True,0.99947923
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot005.jpg,leaf_rot,leaf_rot,leaf_rot,0.99050504,True,0.9856289
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding600.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1363.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999011,True,0.99980277
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot521.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999961,True,0.9999925
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot818.jpg,leaf_rot,leaf_rot,leaf_rot,0.9978884,True,0.9961615
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot166.jpg,bud_rot,bud_rot,bud_rot,0.9998507,True,0.9997096
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping019.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999744,True,0.99994886
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot157.jpg,bud_rot,bud_rot,bud_rot,0.9976178,True,0.99538916
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot145.jpg,bud_rot,bud_rot,bud_rot,0.9998798,True,0.9997923
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot633.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999183,True,0.9999839
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot763.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998749,True,0.99980754
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot982.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.86169475,True,0.78062725
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping107.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99727213,True,0.99473786
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding554.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99995714,True,0.99991536
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot584.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998242,True,0.99966335
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1433.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998564,True,0.9999723
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1310.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9975535,True,0.9956666
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1852.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999816,True,0.99996525
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1083.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9991101,True,0.9982237
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding446.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot406.jpg,bud_rot,bud_rot,bud_rot,0.9998651,True,0.99974024
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding745.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999966,True,0.9999938
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot2127.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999887,True,0.9999978
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding491.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999868,True,0.9999746
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_7.jpg,healthy,healthy,healthy,0.9985035,True,0.99708354
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding400.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999978,True,0.9999958
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding254.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot022.jpg,leaf_rot,leaf_rot,leaf_rot,0.9982312,True,0.9966205
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding070.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999953,True,0.99999243
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot306.jpg,bud_rot,bud_rot,bud_rot,0.66882306,True,0.36661908
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/kaggle/Healthy_Leaves/Healthy_Leaves/Healthy_leaf_45.jpg,healthy,healthy,healthy,0.99999994,True,0.9999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding900.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot086.jpg,bud_rot,bud_rot,bud_rot,0.9999812,True,0.99996555
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1701.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999977,True,0.99999654
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot437.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9995813,True,0.9993253
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding603.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999998,True,0.9999997
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1275.jpg,leaf_rot,leaf_rot,leaf_rot,0.99993354,True,0.9998769
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1350.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9947174,True,0.98946303
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping432.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999998,True,0.99999976
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot618.jpg,leaf_rot,leaf_rot,leaf_rot,0.9978495,True,0.99572575
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot012.jpg,bud_rot,bud_rot,bud_rot,0.99998385,True,0.9999683
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1225.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99998313,True,0.99996763
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot079.jpg,leaf_rot,leaf_rot,leaf_rot,0.9738681,True,0.94773674
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping094.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999803,True,0.9999961
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot063.jpg,bud_rot,bud_rot,bud_rot,0.9967071,True,0.99457365
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot798.jpg,leaf_rot,leaf_rot,leaf_rot,0.99968016,True,0.9993815
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1584.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999991,True,0.9999985
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot690.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999725,True,0.9999461
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot312.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9996044,True,0.99925137
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding107.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99726653,True,0.9947552
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping361.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999636,True,0.9999928
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding940.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1844.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999997,True,0.9999996
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot971.jpg,leaf_rot,leaf_rot,leaf_rot,0.9469657,True,0.8939573
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot472.jpg,leaf_rot,leaf_rot,leaf_rot,0.99997824,True,0.9999597
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot400.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99999994,True,0.99999994
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1246.jpg,leaf_rot,leaf_rot,leaf_rot,0.99969697,True,0.999403
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding073.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.99998266,True,0.9999657
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1667.jpg,leaf_rot,leaf_rot,leaf_rot,0.99994975,True,0.9999057
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping366.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99940866,True,0.9988182
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot481.jpg,leaf_rot,leaf_rot,leaf_rot,0.9999656,True,0.9999394
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1397.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9812792,True,0.96274334
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding308.jpg,stem_bleeding,stem_bleeding,stem_bleeding,0.9999978,True,0.99999577
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot765.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998521,True,0.99972844
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot204.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998203,True,0.99968547
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot411.jpg,leaf_rot,leaf_rot,leaf_rot,0.9998935,True,0.9997891
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot179.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9953319,True,0.99066526
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1375.jpg,leaf_rot,leaf_rot,leaf_rot,0.99977046,True,0.9995417
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Leaf Rot/LeafRot1019.jpg,leaf_rot,leaf_rot,leaf_rot,0.99999934,True,0.999999
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Rot/BudRot074.jpg,bud_rot,bud_rot,bud_rot,0.9999998,True,0.99999964
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot750.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.99984604,True,0.9997071
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping492.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999887,True,0.999998
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping045.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.99999565,True,0.9999914
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1597.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999832,True,0.9999677
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Stem Bleeding/StemBleeding992.jpg,stem_bleeding,stem_bleeding,stem_bleeding,1.0,True,1.0
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Bud Root Dropping/BudRootDropping391.jpg,bud_root_dropping,bud_root_dropping,bud_root_dropping,0.9999938,True,0.9999877
+/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/data/raw/mendeley/Gray Leaf Spot/GrayLeafSpot1447.jpg,gray_leaf_spot,gray_leaf_spot,gray_leaf_spot,0.9999987,True,0.99999744

@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3f8e7109c0efd5431f2735568e33cdc2d7df57a68a82c38036e161c62e32f957
-size 759
+{
+  "accuracy": 0.996606334841629,
+  "balanced_accuracy": 0.9981445525913225,
+  "macro_precision": 0.996491092358181,
+  "macro_recall": 0.9981445525913225,
+  "macro_f1": 0.9973090686821453,
+  "weighted_f1": 0.9966069032709508,
+  "mcc": 0.9954659657901537,
+  "cohen_kappa": 0.9954642165682659,
+  "top2_accuracy": 0.998868778280543,
+  "ece_10_bins": 0.0014361977846913954,
+  "architecture": "MobileNetV3Small",
+  "parameters": 942582,
+  "keras_size_mb": 8.636438369750977,
+  "latency_mean_ms": 127.77607373995124,
+  "latency_median_ms": 126.85693899993566,
+  "latency_p95_ms": 129.83935675001703,
+  "test_images": 884,
+  "model_path": "/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/models/architecture_comparison/MobileNetV3Small/best_model.keras"
+}

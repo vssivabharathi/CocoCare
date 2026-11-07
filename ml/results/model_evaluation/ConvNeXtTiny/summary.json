@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:744338d788b9cab15cda5741bf7af6c61d74887a73576c1ac9ed524478fda9d9
-size 748
+{
+  "accuracy": 0.997737556561086,
+  "balanced_accuracy": 0.99867197875166,
+  "macro_precision": 0.9971594228297699,
+  "macro_recall": 0.99867197875166,
+  "macro_f1": 0.9979045356960049,
+  "weighted_f1": 0.9977378805349683,
+  "mcc": 0.9969809425264108,
+  "cohen_kappa": 0.9969758081759231,
+  "top2_accuracy": 0.998868778280543,
+  "ece_10_bins": 0.0012729358754007187,
+  "architecture": "ConvNeXtTiny",
+  "parameters": 27824742,
+  "keras_size_mb": 229.26118278503418,
+  "latency_mean_ms": 728.8391870900523,
+  "latency_median_ms": 726.2292565001189,
+  "latency_p95_ms": 751.7461187502704,
+  "test_images": 884,
+  "model_path": "/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/models/architecture_comparison/ConvNeXtTiny/best_model.keras"
+}

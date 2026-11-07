@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b5229845d750a166250f0f78fb69c49f972328a6a1efceabfe4b70f1f8b3c2f5
-size 1046
+architecture,parameters,selected_stage,validation_loss_head,validation_loss_finetuned,head_training_seconds,fine_tuning_seconds,total_training_seconds,model_path,error
+MobileNetV3Small,942582.0,fine_tuned,0.0407274849712848,0.0116405645385384,399.7878077030182,418.7205605506897,818.5083682537079,/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/models/architecture_comparison/MobileNetV3Small/best_model.keras,
+MobileNetV3Large,3002118.0,fine_tuned,0.017916053533554,0.0003426532784942,660.5719430446625,810.6122434139252,1471.1841864585876,/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/models/architecture_comparison/MobileNetV3Large/best_model.keras,
+EfficientNetB0,,,,,,,,,"TypeError(""EfficientNetB0() got an unexpected keyword argument 'include_preprocessing'"")"
+ConvNeXtTiny,27824742.0,fine_tuned,0.031109141185879707,0.0005905390135012567,10887.406607151031,15821.795597076416,26709.202204227448,/run/media/sivabharathi/ssd/storage/finalYear/CocoCare/ml/models/architecture_comparison/ConvNeXtTiny/best_model.keras,

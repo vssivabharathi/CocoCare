@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:98143fd1e46371d481870c29a82b9f81415509bd0b1067c097e1323feba43b2c
-size 593
+// Application-level settings for the Runner target.
+//
+// This may be replaced with something auto-generated from metadata (e.g., pubspec.yaml) in the
+// future. If not, the values below would default to using the project name when this becomes a
+// 'flutter create' template.
+
+// The application's name. By default this is also the title of the Flutter window.
+PRODUCT_NAME = app
+
+// The application's bundle identifier
+PRODUCT_BUNDLE_IDENTIFIER = com.example.app
+
+// The copyright displayed in application information
+PRODUCT_COPYRIGHT = Copyright © 2026 com.example. All rights reserved.

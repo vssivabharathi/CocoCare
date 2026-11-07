@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3d3886b63066eb7ce573733d0caec687957d83016009bb3e11bf1fe4d49a27a5
-size 626
+{
+  "method": "one-at-a-time exploratory scenarios using the audited frozen weather snapshot",
+  "not_validation": true,
+  "parameter_evidence_status": "All ranges are deliberately labelled exploratory; they are not claimed as matched evidence for 18-month East Coast Tall coconut at Pollachi. Kc scenarios bracket the 0.70 prototype but are not a recommendation.",
+  "definitions": {
+    "storage_capacity": "storage >= TAW minus 1e-8 mm",
+    "near_complete_depletion": "depletion fraction >= 0.95"
+  },
+  "fixed_model_features": "zero irrigation weather-only scenario; full overflow drainage; simplified storage-based Ks"
+}

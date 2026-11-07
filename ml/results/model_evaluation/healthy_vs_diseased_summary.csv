@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a3f07ecb128f54e55964bb89ae0b3508c100db931262e01698e3001e04f88a0b
-size 284
+architecture,healthy_recall,healthy_precision,diseased_recall,healthy_images_misclassified,diseased_images_predicted_healthy,healthy_test_support,diseased_test_support
+MobileNetV3Small,1.0,1.0,1.0,0,0,18,866
+MobileNetV3Large,1.0,1.0,1.0,0,0,18,866
+ConvNeXtTiny,1.0,1.0,1.0,0,0,18,866

@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a1583bdd76a802b6ced0c3cbac725cc7bb0b45caed8281b69a7022ed0c247f28
-size 579
+check,passed
+expected_row_count,True
+no_duplicate_dates,True
+no_duplicate_rows,True
+no_invalid_dates,True
+no_missing_source_cells,True
+calendar_dates_complete,True
+weather_range_screening_clean,True
+temperature_order_valid,True
+location_metadata_matches_pollachi,True
+ETc_formula_consistent,True
+runoff_formula_consistent,True
+effective_rainfall_consistent,True
+water_balance_drainage_consistent,True
+water_balance_storage_consistent,True
+derived_variables_consistent,True
+stress_labels_match_rule,True
+stress_action_mapping_consistent,True
+weather_snapshot_matches_dataset,True
