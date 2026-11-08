@@ -1,0 +1,5 @@
+objective,track,feature_group,model,split,present_classes,missing_classes,records,accuracy,balanced_accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+current_day,chronological_diagnostic_only,weather_baseline,Dummy_MostFrequent,validation,low|moderate|high,,246,0.06910569105691057,0.3333333333333333,0.023035230352303523,0.3333333333333333,0.04309252217997465,0.008933815573897183
+current_day,chronological_diagnostic_only,weather_baseline,Dummy_MostFrequent,test,low|moderate|high,,249,0.6104417670682731,0.3333333333333333,0.2034805890227577,0.3333333333333333,0.25270157938487114,0.4627787959819327
+current_day,chronological_diagnostic_only,weather_baseline,RandomForest,validation,low|moderate|high,,246,0.6382113821138211,0.3713397927477002,0.345679012345679,0.3713397927477002,0.3392965862143944,0.5660843555597982
+current_day,chronological_diagnostic_only,weather_baseline,RandomForest,test,low|moderate|high,,249,0.8112449799196787,0.6226023391812866,0.6117444679021035,0.6226023391812866,0.6114942891399003,0.8008595877800341

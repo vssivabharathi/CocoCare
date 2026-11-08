@@ -1,0 +1,4 @@
+objective,split,present_classes,missing_classes,records,unique_target_dates,min_target_date,max_target_date,class_counts
+next_day,train,low|moderate|high,,764,382,2023-01-02,2024-01-18,"{""low"": 508, ""moderate"": 71, ""high"": 185}"
+next_day,validation,moderate|high,low,164,82,2024-01-19,2024-04-09,"{""low"": 0, ""moderate"": 8, ""high"": 156}"
+next_day,test,low|moderate|high,,164,82,2024-04-10,2024-06-30,"{""low"": 92, ""moderate"": 6, ""high"": 66}"

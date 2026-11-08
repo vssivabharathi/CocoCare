@@ -1,0 +1,25 @@
+feature_group,feature,type,prediction_time_note
+weather_baseline,rainfall_mm,numeric,day t input
+weather_baseline,tmax_c,numeric,day t input
+weather_baseline,tmin_c,numeric,day t input
+weather_baseline,solar_radiation_mj_m2_day,numeric,day t input
+weather_baseline,relative_humidity_pct,numeric,day t input
+weather_baseline,wind_speed_m_s,numeric,day t input
+weather_baseline,et0_mm_day,numeric,day t input
+scenario_aware,rainfall_mm,numeric,day t input
+scenario_aware,tmax_c,numeric,day t input
+scenario_aware,tmin_c,numeric,day t input
+scenario_aware,solar_radiation_mj_m2_day,numeric,day t input
+scenario_aware,relative_humidity_pct,numeric,day t input
+scenario_aware,wind_speed_m_s,numeric,day t input
+scenario_aware,et0_mm_day,numeric,day t input
+scenario_aware,scenario,categorical_one_hot,scenario known at prediction time
+intervention_aware,rainfall_mm,numeric,day t input
+intervention_aware,tmax_c,numeric,day t input
+intervention_aware,tmin_c,numeric,day t input
+intervention_aware,solar_radiation_mj_m2_day,numeric,day t input
+intervention_aware,relative_humidity_pct,numeric,day t input
+intervention_aware,wind_speed_m_s,numeric,day t input
+intervention_aware,et0_mm_day,numeric,day t input
+intervention_aware,irrigation_litres_per_palm_simulated,numeric,day t irrigation quantity; must be known at prediction time
+intervention_aware,scenario,categorical_one_hot,scenario known at prediction time

@@ -1,0 +1,4 @@
+objective,track,split,records,unique_target_dates,first_target_date,last_target_date,present_classes,missing_classes,class_low,class_moderate,class_high
+current_day,chronological_diagnostic,train,1146,382,2023-01-01,2024-01-17,low|moderate|high,,776,168,202
+current_day,chronological_diagnostic,validation,246,82,2024-01-18,2024-04-08,low|moderate|high,,17,61,168
+current_day,chronological_diagnostic,test,249,83,2024-04-09,2024-06-30,low|moderate|high,,152,25,72

@@ -1,0 +1,4 @@
+objective,track,split,records,unique_target_dates,first_target_date,last_target_date,present_classes,missing_classes,class_low,class_moderate,class_high
+next_day,date_grouped_random,train,1146,382,2023-01-03,2024-06-29,low|moderate|high,,662,186,298
+next_day,date_grouped_random,validation,246,82,2023-01-11,2024-06-27,low|moderate|high,,151,27,68
+next_day,date_grouped_random,test,246,82,2023-01-02,2024-06-30,low|moderate|high,,132,38,76

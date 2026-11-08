@@ -1,0 +1,4 @@
+split,low,moderate,high
+test,29,6,18
+train,138,27,80
+validation,30,6,17

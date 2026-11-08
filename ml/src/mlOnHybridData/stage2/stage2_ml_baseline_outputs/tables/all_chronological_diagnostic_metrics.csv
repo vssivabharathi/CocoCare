@@ -1,0 +1,9 @@
+objective,evaluation_track,feature_group,model,split,present_classes,missing_classes,n,accuracy,balanced_accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+current_day,chronological_diagnostic_only,weather_baseline,Dummy_MostFrequent,validation,moderate|high,low,164,0.0,0.0,0.0,0.0,0.0,0.0
+current_day,chronological_diagnostic_only,weather_baseline,Dummy_MostFrequent,test,low|moderate|high,,166,0.5542168674698795,0.3333333333333333,0.18473895582329317,0.3333333333333333,0.23772609819121449,0.39525544036611565
+current_day,chronological_diagnostic_only,weather_baseline,RandomForest,validation,moderate|high,low,164,0.9024390243902439,0.4805194805194805,0.32456140350877194,0.3203463203463203,0.3224400871459695,0.9083373186673044
+current_day,chronological_diagnostic_only,weather_baseline,RandomForest,test,low|moderate|high,,166,0.9036144578313253,0.6227621483375959,0.6251880507199656,0.6227621483375959,0.6238698978227144,0.9034887745493289
+next_day,chronological_diagnostic_only,weather_baseline,Dummy_MostFrequent,validation,moderate|high,low,164,0.0,0.0,0.0,0.0,0.0,0.0
+next_day,chronological_diagnostic_only,weather_baseline,Dummy_MostFrequent,test,low|moderate|high,,164,0.5609756097560976,0.3333333333333333,0.1869918699186992,0.3333333333333333,0.23958333333333334,0.4032012195121951
+next_day,chronological_diagnostic_only,weather_baseline,RandomForest,validation,moderate|high,low,164,0.9390243902439024,0.4935897435897436,0.32905982905982906,0.32905982905982906,0.32905982905982906,0.9390243902439024
+next_day,chronological_diagnostic_only,weather_baseline,RandomForest,test,low|moderate|high,,164,0.926829268292683,0.6392182696530523,0.619253762110905,0.6392182696530523,0.6289207868155237,0.9094993581514761

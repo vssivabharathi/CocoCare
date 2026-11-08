@@ -1,0 +1,22 @@
+{
+  "effective_rainfall_mm_modelled": "Water-balance intermediate",
+  "runoff_mm_modelled": "Water-balance intermediate",
+  "irrigation_mm_simulated": "Duplicate transformation of irrigation litres using assumed wetted area",
+  "actual_et_mm_day_modelled": "Downstream water-balance output",
+  "drainage_mm_modelled": "Downstream water-balance output",
+  "soil_water_storage_mm_modelled": "Direct simulated state used to derive stress",
+  "depletion_fraction_modelled": "Direct variable used to derive stress label",
+  "depletion_before_irrigation_fraction_modelled": "Direct trigger variable used by irrigation policy",
+  "soil_moisture_vwc_pct_simulated": "Simulated state derived from storage",
+  "recommended_action_simulated": "Action derived from stress label",
+  "water_stress_rule_derived": "Prediction target; never an input",
+  "soil_temperature_c": "Intentionally unmodelled; all missing",
+  "simulated_palm_age_months": "Constant assessment metadata; no age variation",
+  "weather_source": "Source metadata",
+  "weather_source_url": "Source metadata",
+  "soil_temperature_status": "Status metadata",
+  "model_status": "Status metadata",
+  "stress_label_status": "Status metadata",
+  "age_parameter_status": "Status metadata",
+  "effective_wetted_area_m2_assumed": "Constant model assumption"
+}

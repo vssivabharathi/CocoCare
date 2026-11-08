@@ -1,0 +1,64 @@
+{
+  "project": "CocoCare",
+  "stage": "Stage 3",
+  "dataset": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage3/data/cococare_stage3_outputs/stage3_combined_scenarios.csv",
+  "output_directory": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/src/mlOnHybridData/stage3/stage3_ml_baseline_outputs",
+  "random_state": 42,
+  "objectives": [
+    "current_day",
+    "next_day"
+  ],
+  "scenarios": [
+    "model_triggered_irrigation",
+    "tnau_guided_irrigation",
+    "weather_only"
+  ],
+  "feature_groups": {
+    "weather_baseline": {
+      "numeric": [
+        "rainfall_mm",
+        "tmax_c",
+        "tmin_c",
+        "solar_radiation_mj_m2_day",
+        "relative_humidity_pct",
+        "wind_speed_m_s",
+        "et0_mm_day"
+      ],
+      "categorical": []
+    },
+    "scenario_aware": {
+      "numeric": [
+        "rainfall_mm",
+        "tmax_c",
+        "tmin_c",
+        "solar_radiation_mj_m2_day",
+        "relative_humidity_pct",
+        "wind_speed_m_s",
+        "et0_mm_day"
+      ],
+      "categorical": [
+        "scenario"
+      ]
+    },
+    "intervention_aware": {
+      "numeric": [
+        "rainfall_mm",
+        "tmax_c",
+        "tmin_c",
+        "solar_radiation_mj_m2_day",
+        "relative_humidity_pct",
+        "wind_speed_m_s",
+        "et0_mm_day",
+        "irrigation_litres_per_palm_simulated"
+      ],
+      "categorical": [
+        "scenario"
+      ]
+    }
+  },
+  "random_evaluation": "Date-grouped exploratory 70/15/15. Candidate selection by validation macro-F1 then validation balanced accuracy. Selected model refit on train+validation and evaluated on held-out test.",
+  "chronological_evaluation": "Separate temporal diagnostic using weather-baseline Dummy and Random Forest; no model selection from chronological validation.",
+  "target_limitation": "water_stress_rule_derived is produced by the simulation and is not independent field-observed ground truth.",
+  "intervention_feature_limitation": "Irrigation litres are day-t simulated intervention. In the model-triggered scenario this feature is calculated from simulated depletion and is mechanistically coupled to the target.",
+  "permutation_importance": "Computed on validation data, not held-out test data."
+}

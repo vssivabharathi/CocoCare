@@ -1,0 +1,25 @@
+feature_group,feature,feature_type,note
+weather_baseline,rainfall_mm,numeric,day-t weather input
+weather_baseline,tmax_c,numeric,day-t weather input
+weather_baseline,tmin_c,numeric,day-t weather input
+weather_baseline,solar_radiation_mj_m2_day,numeric,day-t weather input
+weather_baseline,relative_humidity_pct,numeric,day-t weather input
+weather_baseline,wind_speed_m_s,numeric,day-t weather input
+weather_baseline,et0_mm_day,numeric,day-t weather input
+scenario_aware,rainfall_mm,numeric,day-t weather input
+scenario_aware,tmax_c,numeric,day-t weather input
+scenario_aware,tmin_c,numeric,day-t weather input
+scenario_aware,solar_radiation_mj_m2_day,numeric,day-t weather input
+scenario_aware,relative_humidity_pct,numeric,day-t weather input
+scenario_aware,wind_speed_m_s,numeric,day-t weather input
+scenario_aware,et0_mm_day,numeric,day-t weather input
+scenario_aware,scenario,categorical_one_hot,scenario identity known in the simulation
+intervention_aware,rainfall_mm,numeric,day-t weather input
+intervention_aware,tmax_c,numeric,day-t weather input
+intervention_aware,tmin_c,numeric,day-t weather input
+intervention_aware,solar_radiation_mj_m2_day,numeric,day-t weather input
+intervention_aware,relative_humidity_pct,numeric,day-t weather input
+intervention_aware,wind_speed_m_s,numeric,day-t weather input
+intervention_aware,et0_mm_day,numeric,day-t weather input
+intervention_aware,irrigation_litres_per_palm_simulated,numeric,day-t simulated irrigation volume; must be known at prediction time; mechanistically coupled to model-triggered scenario
+intervention_aware,scenario,categorical_one_hot,scenario identity known in the simulation

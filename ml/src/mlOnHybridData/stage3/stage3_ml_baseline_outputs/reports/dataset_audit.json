@@ -1,0 +1,34 @@
+{
+  "dataset": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage3/data/cococare_stage3_outputs/stage3_combined_scenarios.csv",
+  "rows": 1641,
+  "columns": 30,
+  "unique_dates": 547,
+  "date_start": "2023-01-01",
+  "date_end": "2024-06-30",
+  "scenario_counts": {
+    "model_triggered_irrigation": 547,
+    "tnau_guided_irrigation": 547,
+    "weather_only": 547
+  },
+  "label_counts_by_scenario": {
+    "model_triggered_irrigation": {
+      "low": 346,
+      "moderate": 166,
+      "high": 35
+    },
+    "tnau_guided_irrigation": {
+      "low": 342,
+      "high": 171,
+      "moderate": 34
+    },
+    "weather_only": {
+      "low": 257,
+      "high": 236,
+      "moderate": 54
+    }
+  },
+  "missing_values": {
+    "soil_temperature_c": 1641
+  },
+  "interpretation": "Simulated rule-derived labels; not field ground truth."
+}

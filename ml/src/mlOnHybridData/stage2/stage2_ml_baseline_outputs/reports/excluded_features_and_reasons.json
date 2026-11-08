@@ -1,0 +1,27 @@
+{
+  "excluded_features": [
+    "effective_rainfall_mm_modelled",
+    "runoff_mm_modelled",
+    "irrigation_mm_simulated",
+    "actual_et_mm_day_modelled",
+    "drainage_mm_modelled",
+    "soil_water_storage_mm_modelled",
+    "depletion_fraction_modelled",
+    "soil_moisture_vwc_pct_simulated",
+    "recommended_action_simulated",
+    "water_stress_rule_derived",
+    "soil_temperature_c",
+    "weather_source",
+    "weather_source_url",
+    "soil_temperature_status",
+    "model_status",
+    "stress_label_status",
+    "location",
+    "latitude",
+    "longitude",
+    "variety",
+    "data_class",
+    "simulated_palm_age_months"
+  ],
+  "reason": "Excluded because they are target-derived water-balance states, downstream recommendations, metadata, constant identifiers, or entirely missing in the current dataset."
+}

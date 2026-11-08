@@ -1,0 +1,4 @@
+,low,moderate,high
+train,424,64,276
+validation,93,11,60
+test,83,10,71

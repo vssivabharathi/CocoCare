@@ -1,0 +1,4 @@
+objective,feature_group,selected_model,selection_metric,validation_macro_f1,validation_balanced_accuracy,test_records,test_accuracy,test_balanced_accuracy,test_macro_precision,test_macro_recall,test_macro_f1,test_weighted_f1,test_present_classes,test_missing_classes
+current_day,weather_baseline,DecisionTree,validation_macro_f1,0.5824410142307513,0.6272389890810942,166,0.6867469879518072,0.6320733104238259,0.6112962962962963,0.6320733104238259,0.6148900930847226,0.702536953096227,low|moderate|high,
+current_day,scenario_aware,RandomForest,validation_macro_f1,0.7324990943880753,0.786728622254938,166,0.8012048192771084,0.820107498458014,0.7710049277252183,0.820107498458014,0.7813636363636364,0.8124131591300265,low|moderate|high,
+current_day,intervention_aware,DecisionTree,validation_macro_f1,0.7807562807562808,0.8084130781499203,166,0.7168674698795181,0.6952683055775838,0.658406432748538,0.6952683055775838,0.6694934354026044,0.7266657305468998,low|moderate|high,

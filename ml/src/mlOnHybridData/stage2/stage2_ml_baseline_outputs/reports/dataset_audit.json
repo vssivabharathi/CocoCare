@@ -1,0 +1,25 @@
+{
+  "rows": 1094,
+  "columns": 34,
+  "unique_dates": 547,
+  "scenario_counts": {
+    "tnau_guided_irrigation": 547,
+    "weather_only": 547
+  },
+  "target_counts_by_scenario": {
+    "tnau_guided_irrigation": {
+      "('tnau_guided_irrigation', 'low')": 343,
+      "('tnau_guided_irrigation', 'high')": 171,
+      "('tnau_guided_irrigation', 'moderate')": 33
+    },
+    "weather_only": {
+      "('weather_only', 'low')": 257,
+      "('weather_only', 'high')": 236,
+      "('weather_only', 'moderate')": 54
+    }
+  },
+  "missing_values": {
+    "soil_temperature_c": 1094
+  },
+  "target_status": "simulated_rule_derived_not_field_ground_truth"
+}

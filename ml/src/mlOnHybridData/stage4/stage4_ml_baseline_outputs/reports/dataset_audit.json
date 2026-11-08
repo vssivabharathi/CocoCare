@@ -1,0 +1,28 @@
+{
+  "input": "/home/sivabharathi/Documents/FinalYearProject/CocoCare/ml/data/coconut_health/stage4/data/cococare_stage4_outputs/stage4_combined_scenarios.csv",
+  "rows": 1094,
+  "columns": 31,
+  "unique_dates": 547,
+  "date_start": "2023-01-01",
+  "date_end": "2024-06-30",
+  "scenario_counts": {
+    "stage4_model_triggered_irrigation": 547,
+    "stage4_weather_only": 547
+  },
+  "target_counts_by_scenario": {
+    "stage4_model_triggered_irrigation": {
+      "low": 351,
+      "moderate": 161,
+      "high": 35
+    },
+    "stage4_weather_only": {
+      "low": 257,
+      "high": 236,
+      "moderate": 54
+    }
+  },
+  "missing_values": {
+    "soil_temperature_c": 1094
+  },
+  "interpretation": "Rule-derived simulation target; not measured field stress."
+}
